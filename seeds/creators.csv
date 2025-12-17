@@ -1,0 +1,501 @@
+creator_id,creator_name,email,category,subcategory,country_code,currency_code,plan_type,is_nsfw,is_verified,created_at,first_pledge_received_at,last_post_at,status
+cr_0001,Rodriguez Figueroa and Sanchez,creator1@doyle.net,video,tech,NL,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-13 00:00:00,2024-12-13 00:00:00,active
+cr_0002,Garza Studio,creator2@davis.net,podcasts,interviews,NL,EUR,premium,True,False,2022-04-06 00:00:00,2023-03-04 00:00:00,2024-12-15 00:00:00,active
+cr_0003,Johnson Gonzalez and Santos,creator3@barnes.com,writing,journalism,DE,EUR,premium,False,True,2022-06-05 00:00:00,2023-02-14 00:00:00,2024-11-23 00:00:00,active
+cr_0004,Wolfe Creative,creator4@moore-bernard.com,podcasts,comedy,CA,USD,pro,False,True,2021-10-08 00:00:00,2023-02-23 00:00:00,2024-12-20 00:00:00,active
+cr_0005,Davis Studio,creator5@abbott-munoz.com,writing,newsletters,ES,EUR,pro,False,True,2021-11-07 00:00:00,2023-02-22 00:00:00,2024-12-24 00:00:00,active
+cr_0006,Stevens Martinez and Nielsen,creator6@arnold.org,video,gaming,AU,USD,pro,False,True,2022-06-05 00:00:00,2023-01-28 00:00:00,2024-12-28 00:00:00,active
+cr_0007,Ray-Bush,creator7@stanley.com,writing,newsletters,US,USD,pro,False,True,2021-06-10 00:00:00,2023-02-08 00:00:00,2024-12-28 00:00:00,active
+cr_0008,Delacruz Group,creator8@chavez-flowers.com,visual_art,comics,FR,EUR,pro,False,True,2022-04-06 00:00:00,2023-04-07 00:00:00,2024-12-14 00:00:00,active
+cr_0009,Kelly-Santiago,creator9@zuniga.com,video,vlogs,NL,EUR,pro,False,False,2021-06-10 00:00:00,2023-02-23 00:00:00,2024-12-18 00:00:00,active
+cr_0010,Daniel Martin and Gray,creator10@watts.com,writing,fiction,DE,EUR,pro,False,True,2021-02-10 00:00:00,2023-03-03 00:00:00,2024-12-28 00:00:00,active
+cr_0011,Underwood Creative,creator11@adams-clark.org,video,tech,US,USD,pro,False,True,2021-05-11 00:00:00,2023-02-27 00:00:00,2024-12-13 00:00:00,active
+cr_0012,Edwards Rios and Foster,creator12@ellis.net,video,tutorials,CA,USD,premium,False,False,2021-09-08 00:00:00,2023-02-18 00:00:00,2024-11-27 00:00:00,active
+cr_0013,Baker Richards and Hurst,creator13@cox-osborn.com,podcasts,comedy,ES,EUR,premium,False,True,2021-11-07 00:00:00,2023-02-08 00:00:00,2024-12-22 00:00:00,active
+cr_0014,Snyder Campos and Callahan,creator14@burton.biz,video,gaming,CA,USD,pro,False,True,2022-03-07 00:00:00,2023-02-12 00:00:00,2024-12-16 00:00:00,active
+cr_0015,Brown James and Ferrell,creator15@king.com,video,tutorials,CA,USD,premium,False,False,2021-06-10 00:00:00,2023-02-05 00:00:00,2024-12-18 00:00:00,active
+cr_0016,Dyer Potter and Mack,creator16@rodriguez-graham.info,visual_art,digital_illustration,NO,NOK,pro,False,True,2021-05-11 00:00:00,2023-02-21 00:00:00,2024-12-27 00:00:00,active
+cr_0017,Mckay Ltd,creator17@stanton-gill.net,education,fitness,DE,EUR,pro,False,False,2022-04-06 00:00:00,2023-02-20 00:00:00,2024-12-09 00:00:00,active
+cr_0018,Harrell Creative,creator18@romero.com,podcasts,interviews,CA,USD,pro,False,False,2022-01-06 00:00:00,2023-01-20 00:00:00,2024-12-05 00:00:00,active
+cr_0019,Ashley Nielsen and Sellers,creator19@nguyen.com,education,languages,AU,USD,premium,False,False,2021-08-09 00:00:00,2023-01-26 00:00:00,2024-12-09 00:00:00,active
+cr_0020,Brown PLC,creator20@miller.com,music,production,US,USD,pro,False,False,2022-07-05 00:00:00,2023-01-13 00:00:00,2024-12-26 00:00:00,active
+cr_0021,Cannon Anderson and Alvarez,creator21@martin.com,writing,newsletters,NL,EUR,pro,False,True,2022-02-05 00:00:00,2023-01-24 00:00:00,2024-12-15 00:00:00,active
+cr_0022,Campos Vaughn and Marquez,creator22@carney-santos.info,video,vlogs,FR,EUR,pro,False,True,2021-05-11 00:00:00,2023-01-25 00:00:00,2024-12-24 00:00:00,active
+cr_0023,Hayes Wright and Brown,creator23@chapman.org,podcasts,true_crime,ES,EUR,pro,False,True,2021-08-09 00:00:00,2023-01-30 00:00:00,2024-12-23 00:00:00,active
+cr_0024,Smith Ltd,creator24@brown.com,podcasts,history,GB,USD,pro,True,True,2022-06-05 00:00:00,2023-01-26 00:00:00,2024-12-21 00:00:00,active
+cr_0025,Palmer Creative,creator25@washington.org,education,languages,DE,EUR,pro,False,True,2022-06-05 00:00:00,2023-02-04 00:00:00,2024-12-27 00:00:00,active
+cr_0026,Kennedy Mueller and Aguirre,creator26@davis.biz,education,music_lessons,FR,EUR,pro,False,True,2021-03-12 00:00:00,2023-01-08 00:00:00,2024-12-16 00:00:00,active
+cr_0027,Henderson-Owens,creator27@brown.com,visual_art,animation,US,USD,pro,False,True,2021-04-11 00:00:00,2023-01-24 00:00:00,2024-11-15 00:00:00,active
+cr_0028,Chandler-Mcbride,creator28@wright.net,writing,poetry,CA,USD,premium,False,True,2022-04-06 00:00:00,2023-02-10 00:00:00,2024-12-15 00:00:00,active
+cr_0029,Taylor-White,creator29@wright-leblanc.info,podcasts,history,NL,EUR,pro,False,True,2022-07-05 00:00:00,2023-02-15 00:00:00,2024-12-25 00:00:00,active
+cr_0030,Garcia Pearson and Fernandez,creator30@novak.com,video,tech,ES,EUR,pro,False,True,2021-02-10 00:00:00,2023-02-08 00:00:00,2024-12-24 00:00:00,active
+cr_0031,Tucker-Lewis,creator31@barrera-martin.com,podcasts,interviews,GB,USD,lite,False,True,2021-03-12 00:00:00,2023-01-31 00:00:00,2024-12-26 00:00:00,active
+cr_0032,Baker-Bowers,creator32@mitchell-horton.net,music,production,SE,EUR,pro,False,False,2021-11-07 00:00:00,2023-01-25 00:00:00,2024-12-19 00:00:00,active
+cr_0033,Higgins Moore and Phillips,creator33@riley.com,music,lessons,NL,EUR,premium,False,False,2022-07-05 00:00:00,2023-01-30 00:00:00,2024-12-24 00:00:00,active
+cr_0034,Edwards Williams and Woods,creator34@moore.com,education,languages,SE,EUR,premium,True,True,2022-05-06 00:00:00,2023-03-15 00:00:00,2024-12-19 00:00:00,active
+cr_0035,Larson Ltd,creator35@powell.com,visual_art,comics,SE,EUR,pro,True,True,2022-05-06 00:00:00,2023-02-07 00:00:00,2024-12-19 00:00:00,active
+cr_0036,Wheeler Harvey and Barnes,creator36@cunningham.com,podcasts,interviews,ES,EUR,premium,False,True,2021-12-07 00:00:00,2023-01-24 00:00:00,2024-12-16 00:00:00,active
+cr_0037,Baker and Sons,creator37@brewer.com,visual_art,comics,FR,EUR,lite,False,False,2021-06-10 00:00:00,2023-03-16 00:00:00,2024-11-22 00:00:00,active
+cr_0038,Ellis PLC,creator38@jones.net,video,tech,US,USD,pro,False,True,2022-07-05 00:00:00,2023-01-30 00:00:00,2024-12-22 00:00:00,active
+cr_0039,Anderson-Bailey,creator39@suarez.com,podcasts,history,DE,EUR,premium,False,False,2021-03-12 00:00:00,2023-02-15 00:00:00,2024-12-14 00:00:00,active
+cr_0040,Kim PLC,creator40@turner.net,video,gaming,US,USD,pro,False,True,2022-05-06 00:00:00,2023-01-11 00:00:00,2024-12-27 00:00:00,active
+cr_0041,Contreras PLC,creator41@huynh-garcia.com,video,tutorials,SE,EUR,pro,False,False,2021-02-10 00:00:00,2023-02-17 00:00:00,2024-12-01 00:00:00,active
+cr_0042,Wilson-Rodriguez,creator42@moore.com,podcasts,true_crime,FR,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-25 00:00:00,2024-12-21 00:00:00,active
+cr_0043,Watts Creative,creator43@freeman.com,video,vlogs,SE,EUR,premium,False,True,2022-07-05 00:00:00,2023-01-31 00:00:00,2024-10-14 00:00:00,active
+cr_0044,Henderson Hill and Smith,creator44@walsh.com,writing,newsletters,SE,EUR,premium,False,True,2021-02-10 00:00:00,2023-02-25 00:00:00,2024-12-14 00:00:00,active
+cr_0045,Ramos Thornton and Hoffman,creator45@jones.com,visual_art,animation,NL,EUR,premium,False,False,2022-07-05 00:00:00,2023-02-20 00:00:00,2024-11-24 00:00:00,active
+cr_0046,Johnson Wood and Tran,creator46@anderson-parker.com,video,vlogs,GB,USD,pro,False,True,2022-06-05 00:00:00,2023-02-14 00:00:00,2024-12-22 00:00:00,active
+cr_0047,Clark-Wright,creator47@gomez.biz,podcasts,true_crime,AU,USD,pro,False,True,2021-03-12 00:00:00,2023-02-25 00:00:00,2024-12-13 00:00:00,active
+cr_0048,Brady Frost and Young,creator48@cherry.biz,video,vlogs,DE,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-10 00:00:00,2024-12-24 00:00:00,active
+cr_0049,White Creative,creator49@pham-shields.com,video,tutorials,AU,USD,pro,False,False,2021-12-07 00:00:00,2023-01-28 00:00:00,2024-12-04 00:00:00,active
+cr_0050,Moore-Haynes,creator50@brennan-garrison.com,podcasts,interviews,NO,NOK,pro,True,False,2021-01-11 00:00:00,2023-02-04 00:00:00,2024-12-27 00:00:00,active
+cr_0051,Velasquez Group,creator51@torres-pope.com,writing,fiction,DE,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-26 00:00:00,2024-10-16 00:00:00,active
+cr_0052,Johnson and Sons,creator52@murphy-lin.com,podcasts,true_crime,SE,EUR,premium,False,False,2021-04-11 00:00:00,2023-02-09 00:00:00,2024-12-24 00:00:00,active
+cr_0053,May-Ross,creator53@rivera.com,education,music_lessons,FR,EUR,premium,True,True,2022-03-07 00:00:00,2023-04-09 00:00:00,2024-11-15 00:00:00,active
+cr_0054,Carpenter Creative,creator54@rodriguez.com,podcasts,true_crime,DE,EUR,pro,False,False,2021-06-10 00:00:00,2023-03-03 00:00:00,2024-10-28 00:00:00,active
+cr_0055,Hartman Graham and Joyce,creator55@cruz.com,podcasts,interviews,DE,EUR,pro,False,True,2021-04-11 00:00:00,2023-03-12 00:00:00,2024-12-03 00:00:00,active
+cr_0056,Williams-Graham,creator56@frost.com,video,gaming,AU,USD,pro,False,True,2022-03-07 00:00:00,2023-01-15 00:00:00,2024-12-11 00:00:00,active
+cr_0057,Reynolds-Rush,creator57@hanson-alvarado.com,visual_art,digital_illustration,AU,USD,premium,False,False,2022-03-07 00:00:00,2023-02-14 00:00:00,2024-12-27 00:00:00,active
+cr_0058,Mccullough Hunter and Estrada,creator58@powell-phillips.com,writing,poetry,GB,USD,pro,False,False,2021-08-09 00:00:00,2023-02-02 00:00:00,2024-10-13 00:00:00,active
+cr_0059,Fisher Group,creator59@adkins.biz,writing,poetry,US,USD,lite,False,True,2022-05-06 00:00:00,2023-02-07 00:00:00,2024-11-18 00:00:00,active
+cr_0060,Bass Torres and Clark,creator60@lawson.com,podcasts,comedy,GB,USD,pro,False,True,2021-06-10 00:00:00,2023-01-28 00:00:00,2024-12-18 00:00:00,active
+cr_0061,Kennedy Santana and Flynn,creator61@hopkins.net,education,programming,NO,NOK,pro,False,True,2021-10-08 00:00:00,2023-02-05 00:00:00,2024-12-27 00:00:00,active
+cr_0062,Schultz Rogers and Cardenas,creator62@chambers.com,education,languages,NL,EUR,premium,False,True,2021-07-10 00:00:00,2023-02-15 00:00:00,2024-12-25 00:00:00,active
+cr_0063,Johnson and Sons,creator63@carr-mack.info,podcasts,history,US,USD,premium,False,True,2022-05-06 00:00:00,2023-01-22 00:00:00,2024-12-05 00:00:00,active
+cr_0064,Mercado-Johnston,creator64@horton.com,visual_art,photography,US,USD,premium,False,True,2022-03-07 00:00:00,2023-01-26 00:00:00,2024-12-20 00:00:00,active
+cr_0065,Osborne and Sons,creator65@brock.net,video,tech,SE,EUR,pro,False,True,2021-04-11 00:00:00,2023-03-22 00:00:00,2024-10-18 00:00:00,active
+cr_0066,Williams-Wright,creator66@bryant.net,podcasts,history,SE,EUR,pro,False,False,2021-01-11 00:00:00,2023-02-09 00:00:00,2024-12-28 00:00:00,active
+cr_0067,Larson Dodson and Vance,creator67@briggs.net,visual_art,photography,DE,EUR,pro,False,True,2021-04-11 00:00:00,2023-02-06 00:00:00,2024-12-20 00:00:00,active
+cr_0068,Merritt-Manning,creator68@cole-walton.com,podcasts,history,SE,EUR,pro,False,False,2021-04-11 00:00:00,2023-01-17 00:00:00,2024-12-21 00:00:00,active
+cr_0069,Washington Allen and Gonzales,creator69@mitchell.net,games,lets_plays,CA,USD,premium,False,True,2022-03-07 00:00:00,2023-01-31 00:00:00,2024-12-07 00:00:00,active
+cr_0070,Taylor and Sons,creator70@benson-mccarthy.com,podcasts,true_crime,US,USD,pro,False,False,2021-08-09 00:00:00,2023-02-24 00:00:00,2024-12-16 00:00:00,active
+cr_0071,Russell-Daniels,creator71@brown-wall.biz,podcasts,true_crime,DE,EUR,pro,False,True,2022-06-05 00:00:00,2023-02-17 00:00:00,2024-12-24 00:00:00,active
+cr_0072,Shah Smith and Gilmore,creator72@james.biz,writing,journalism,ES,EUR,lite,False,True,2021-03-12 00:00:00,2023-02-10 00:00:00,2024-12-27 00:00:00,active
+cr_0073,Medina-Navarro,creator73@hurst.info,podcasts,history,FR,EUR,premium,False,True,2021-08-09 00:00:00,2023-02-21 00:00:00,2024-12-19 00:00:00,active
+cr_0074,Price Ltd,creator74@yates.com,video,tech,GB,USD,pro,False,True,2021-07-10 00:00:00,2023-02-04 00:00:00,2024-12-22 00:00:00,active
+cr_0075,Ferguson Meadows and Vargas,creator75@johnson.info,podcasts,history,US,USD,premium,False,True,2022-01-06 00:00:00,2023-02-05 00:00:00,2024-12-14 00:00:00,active
+cr_0076,Williams Group,creator76@lewis-murphy.biz,visual_art,digital_illustration,FR,EUR,pro,False,False,2022-07-05 00:00:00,2023-01-29 00:00:00,2024-12-26 00:00:00,active
+cr_0077,Walton-Decker,creator77@conley-ruiz.net,visual_art,photography,FR,EUR,lite,False,True,2021-04-11 00:00:00,2023-02-05 00:00:00,2024-12-21 00:00:00,active
+cr_0078,Cooke Creative,creator78@santos.com,education,programming,SE,EUR,pro,False,False,2021-02-10 00:00:00,2023-02-10 00:00:00,2024-11-21 00:00:00,active
+cr_0079,Herring and Sons,creator79@howell.com,education,music_lessons,ES,EUR,pro,False,False,2021-04-11 00:00:00,2023-01-19 00:00:00,2024-09-17 00:00:00,active
+cr_0080,Caldwell-Elliott,creator80@marshall.com,music,lessons,NO,NOK,pro,False,True,2021-12-07 00:00:00,2023-03-02 00:00:00,2024-12-24 00:00:00,active
+cr_0081,Obrien Ltd,creator81@wilson.com,visual_art,animation,SE,EUR,pro,False,True,2022-03-07 00:00:00,2023-03-11 00:00:00,2024-12-11 00:00:00,active
+cr_0082,Johnson Collins and Byrd,creator82@sanders-espinoza.com,video,tech,CA,USD,premium,False,False,2021-07-10 00:00:00,2023-02-16 00:00:00,2024-12-08 00:00:00,active
+cr_0083,Vaughn Burton and Garcia,creator83@jefferson-burke.com,visual_art,comics,NL,EUR,premium,False,True,2021-10-08 00:00:00,2023-02-05 00:00:00,2024-11-15 00:00:00,active
+cr_0084,Patton Reed and Patterson,creator84@jones-holland.com,video,gaming,GB,USD,lite,False,True,2022-07-05 00:00:00,2023-03-08 00:00:00,2024-12-19 00:00:00,active
+cr_0085,Short-Garcia,creator85@reid-poole.com,video,gaming,US,USD,pro,False,True,2021-03-12 00:00:00,2023-03-01 00:00:00,2024-12-20 00:00:00,active
+cr_0086,Thompson-Boyd,creator86@nelson.info,podcasts,true_crime,DE,EUR,lite,False,True,2021-03-12 00:00:00,2023-02-15 00:00:00,2024-12-26 00:00:00,active
+cr_0087,Graham-Simon,creator87@morris-sanchez.com,education,programming,NO,NOK,pro,False,True,2021-10-08 00:00:00,2023-02-08 00:00:00,2024-12-09 00:00:00,active
+cr_0088,Keith-Sanchez,creator88@hudson-barnett.com,video,tech,AU,USD,pro,False,True,2021-07-10 00:00:00,2023-02-28 00:00:00,2024-12-20 00:00:00,active
+cr_0089,Snyder Creative,creator89@freeman.com,video,vlogs,NO,NOK,pro,False,False,2022-01-06 00:00:00,2023-02-03 00:00:00,2024-12-18 00:00:00,active
+cr_0090,Ramirez-Carlson,creator90@peters-black.com,video,tech,DE,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-03 00:00:00,2024-12-23 00:00:00,active
+cr_0091,Allen Group,creator91@peters-allen.info,visual_art,photography,DE,EUR,premium,False,True,2021-05-11 00:00:00,2023-02-14 00:00:00,2024-12-26 00:00:00,active
+cr_0092,Joseph West and Smith,creator92@walker-holt.com,podcasts,interviews,FR,EUR,premium,False,True,2022-06-05 00:00:00,2023-01-25 00:00:00,2024-12-28 00:00:00,active
+cr_0093,Perkins Kennedy and Schmidt,creator93@barajas-pierce.com,podcasts,true_crime,US,USD,premium,False,True,2022-02-05 00:00:00,2023-02-10 00:00:00,2024-12-28 00:00:00,active
+cr_0094,Chavez Parker and Hall,creator94@lee.com,writing,fiction,NO,NOK,lite,False,True,2022-04-06 00:00:00,2023-01-22 00:00:00,2024-12-26 00:00:00,active
+cr_0095,Robinson Group,creator95@hardy-bray.net,visual_art,comics,DE,EUR,pro,False,True,2022-02-05 00:00:00,2023-02-20 00:00:00,2024-12-06 00:00:00,active
+cr_0096,Campbell Garcia and Lee,creator96@ward.com,video,tutorials,FR,EUR,premium,False,True,2021-04-11 00:00:00,2023-02-12 00:00:00,2024-11-26 00:00:00,active
+cr_0097,Ferguson Hill and Mccann,creator97@carter.info,video,vlogs,GB,USD,premium,False,False,2022-05-06 00:00:00,2023-01-31 00:00:00,2024-11-27 00:00:00,active
+cr_0098,Salas PLC,creator98@harrison-alexander.com,video,gaming,US,USD,pro,False,False,2022-02-05 00:00:00,2023-01-14 00:00:00,2024-12-12 00:00:00,active
+cr_0099,King Group,creator99@short.info,podcasts,true_crime,SE,EUR,pro,False,True,2021-07-10 00:00:00,2023-03-03 00:00:00,2024-12-25 00:00:00,active
+cr_0100,Ray Ltd,creator100@hernandez.com,visual_art,photography,US,USD,pro,False,False,2021-04-11 00:00:00,2023-02-04 00:00:00,2024-12-15 00:00:00,active
+cr_0101,Mcknight Studio,creator101@duran.com,podcasts,comedy,NL,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-21 00:00:00,2024-12-28 00:00:00,active
+cr_0102,James Kerr and Evans,creator102@branch.org,visual_art,digital_illustration,NL,EUR,pro,False,False,2021-06-10 00:00:00,2023-02-13 00:00:00,2024-12-09 00:00:00,active
+cr_0103,Garcia Farmer and Garrett,creator103@guerrero-moore.com,education,fitness,GB,USD,pro,False,True,2021-07-10 00:00:00,2023-02-14 00:00:00,2024-12-25 00:00:00,active
+cr_0104,Jones Smith and Hayes,creator104@harrison.com,video,tech,ES,EUR,pro,False,True,2021-10-08 00:00:00,2023-01-13 00:00:00,2024-12-21 00:00:00,active
+cr_0105,Heath Jones and Hall,creator105@french-weber.com,podcasts,history,AU,USD,pro,False,True,2021-07-10 00:00:00,2023-02-24 00:00:00,2024-12-24 00:00:00,active
+cr_0106,Wilson-Walker,creator106@kerr.com,visual_art,animation,FR,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-15 00:00:00,2024-12-27 00:00:00,active
+cr_0107,Martin Creative,creator107@curry.com,podcasts,history,FR,EUR,premium,False,True,2022-03-07 00:00:00,2023-02-24 00:00:00,2024-11-28 00:00:00,active
+cr_0108,Barker-Lyons,creator108@mason-snyder.com,visual_art,comics,SE,EUR,pro,False,True,2022-03-07 00:00:00,2023-01-26 00:00:00,2024-12-06 00:00:00,active
+cr_0109,Williams Reynolds and Morris,creator109@johnson-perez.org,podcasts,interviews,NL,EUR,premium,False,True,2021-09-08 00:00:00,2023-02-08 00:00:00,2024-12-28 00:00:00,active
+cr_0110,Sampson Key and Chambers,creator110@johnston-hines.com,video,vlogs,GB,USD,pro,False,True,2022-02-05 00:00:00,2023-01-29 00:00:00,2024-12-19 00:00:00,active
+cr_0111,Stone-Ramos,creator111@white-richards.info,games,lets_plays,CA,USD,premium,False,True,2022-02-05 00:00:00,2023-02-07 00:00:00,2024-12-27 00:00:00,active
+cr_0112,Harrison Group,creator112@morris-garcia.com,visual_art,digital_illustration,DE,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-11 00:00:00,2024-10-13 00:00:00,active
+cr_0113,Jenkins-Simpson,creator113@landry.info,visual_art,digital_illustration,US,USD,premium,False,True,2021-08-09 00:00:00,2023-02-07 00:00:00,2024-12-27 00:00:00,active
+cr_0114,Edwards Creative,creator114@cordova.net,podcasts,interviews,CA,USD,pro,False,True,2021-07-10 00:00:00,2023-01-11 00:00:00,2024-12-28 00:00:00,active
+cr_0115,Sandoval PLC,creator115@gutierrez-lopez.com,podcasts,interviews,NL,EUR,premium,False,True,2022-06-05 00:00:00,2023-02-08 00:00:00,2024-12-23 00:00:00,active
+cr_0116,Avila Garrett and Wolf,creator116@adams.com,education,music_lessons,NL,EUR,premium,False,True,2021-05-11 00:00:00,2023-01-30 00:00:00,2024-12-24 00:00:00,active
+cr_0117,Gilmore-Washington,creator117@dudley.com,writing,poetry,GB,USD,pro,False,False,2021-08-09 00:00:00,2023-03-27 00:00:00,2024-12-25 00:00:00,active
+cr_0118,Moore Pierce and Tran,creator118@walker.info,podcasts,comedy,NL,EUR,premium,True,False,2022-07-05 00:00:00,2023-02-16 00:00:00,2024-12-06 00:00:00,active
+cr_0119,Holland and Sons,creator119@cantu-carter.com,writing,fiction,CA,USD,pro,False,True,2021-06-10 00:00:00,2023-02-09 00:00:00,2024-12-22 00:00:00,active
+cr_0120,Davenport-Baird,creator120@bryant.biz,visual_art,animation,NO,NOK,pro,False,True,2021-07-10 00:00:00,2023-02-15 00:00:00,2024-12-27 00:00:00,active
+cr_0121,Weeks PLC,creator121@suarez.biz,video,tutorials,US,USD,premium,False,True,2022-02-05 00:00:00,2023-01-24 00:00:00,2024-12-07 00:00:00,active
+cr_0122,Villa-Romero,creator122@campbell.org,music,production,DE,EUR,lite,False,True,2022-06-05 00:00:00,2023-02-05 00:00:00,2024-12-28 00:00:00,active
+cr_0123,Duarte Burns and Hernandez,creator123@washington.biz,music,production,NL,EUR,premium,False,False,2021-01-11 00:00:00,2023-02-28 00:00:00,2024-12-22 00:00:00,active
+cr_0124,Cantu-Kane,creator124@allen.biz,visual_art,comics,AU,USD,lite,False,False,2022-01-06 00:00:00,2023-01-18 00:00:00,2024-12-25 00:00:00,active
+cr_0125,Flores Group,creator125@mcintyre.com,education,programming,FR,EUR,premium,False,False,2022-04-06 00:00:00,2023-01-31 00:00:00,2024-12-05 00:00:00,active
+cr_0126,Hanna-Martinez,creator126@rivera.com,podcasts,history,AU,USD,pro,False,True,2021-05-11 00:00:00,2023-01-29 00:00:00,2024-12-13 00:00:00,active
+cr_0127,Lozano Smith and Thomas,creator127@booker.com,visual_art,digital_illustration,AU,USD,premium,False,True,2021-05-11 00:00:00,2023-02-02 00:00:00,2024-11-12 00:00:00,active
+cr_0128,Hanson-Sanders,creator128@christian.net,education,fitness,DE,EUR,premium,False,True,2021-09-08 00:00:00,2023-02-15 00:00:00,,active
+cr_0129,Finley-Sims,creator129@brennan-johnson.com,podcasts,comedy,NO,NOK,lite,False,True,2021-05-11 00:00:00,2023-02-05 00:00:00,,active
+cr_0130,Welch Creative,creator130@francis.com,visual_art,digital_illustration,NL,EUR,premium,False,True,2022-07-05 00:00:00,2023-02-08 00:00:00,,active
+cr_0131,Padilla Garcia and Jackson,creator131@berger-williams.com,education,fitness,NL,EUR,premium,False,True,2022-03-07 00:00:00,2023-01-15 00:00:00,,active
+cr_0132,Howard-Jordan,creator132@schmidt.com,podcasts,comedy,NL,EUR,premium,False,True,2021-06-10 00:00:00,2023-02-07 00:00:00,,active
+cr_0133,Thompson PLC,creator133@harvey-allen.org,podcasts,true_crime,AU,USD,pro,False,False,2021-06-10 00:00:00,2023-02-01 00:00:00,,active
+cr_0134,Hall Ltd,creator134@stevens-estrada.info,visual_art,animation,DE,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-21 00:00:00,,active
+cr_0135,Byrd-Moore,creator135@landry-huerta.com,writing,journalism,CA,USD,pro,False,False,2021-11-07 00:00:00,2023-01-26 00:00:00,,active
+cr_0136,Hayden Vaughn and Bryant,creator136@gonzalez-cruz.info,video,gaming,US,USD,pro,True,False,2022-06-05 00:00:00,2023-01-21 00:00:00,,active
+cr_0137,Young PLC,creator137@andrews-haney.com,podcasts,history,AU,USD,pro,False,True,2022-01-06 00:00:00,2023-01-29 00:00:00,,active
+cr_0138,Spence Ltd,creator138@hill-knight.com,visual_art,comics,DE,EUR,pro,False,True,2021-02-10 00:00:00,2023-03-06 00:00:00,,active
+cr_0139,Mcgee Wall and Leach,creator139@lawson.com,visual_art,comics,US,USD,pro,False,True,2021-12-07 00:00:00,2023-02-13 00:00:00,,active
+cr_0140,Lee King and Campos,creator140@becker.com,video,vlogs,US,USD,pro,False,True,2021-01-11 00:00:00,2023-02-09 00:00:00,,active
+cr_0141,Kramer-Johnson,creator141@oconnor-davis.com,podcasts,true_crime,GB,USD,pro,False,True,2021-01-11 00:00:00,2023-03-05 00:00:00,,active
+cr_0142,Burgess-Thompson,creator142@buchanan.net,visual_art,photography,US,USD,pro,False,False,2022-04-06 00:00:00,2023-01-22 00:00:00,,active
+cr_0143,Mcintyre Rivas and Scott,creator143@coffey-phillips.com,video,tutorials,GB,USD,pro,True,True,2021-06-10 00:00:00,2023-02-16 00:00:00,,active
+cr_0144,Mcdonald Studio,creator144@webster.biz,education,programming,US,USD,pro,False,True,2021-12-07 00:00:00,2023-02-24 00:00:00,,active
+cr_0145,Diaz Gibbs and Smith,creator145@martinez.com,visual_art,animation,DE,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-06 00:00:00,,active
+cr_0146,James Little and Watson,creator146@hall.net,podcasts,interviews,NL,EUR,premium,False,False,2021-06-10 00:00:00,2023-02-05 00:00:00,,active
+cr_0147,Herman-Walker,creator147@reid.com,podcasts,true_crime,GB,USD,pro,False,True,2021-04-11 00:00:00,2023-02-08 00:00:00,,active
+cr_0148,Ortiz Taylor and Shah,creator148@ferrell-wilson.com,podcasts,history,AU,USD,premium,False,False,2021-01-11 00:00:00,2023-02-11 00:00:00,,active
+cr_0149,Taylor Chavez and Santiago,creator149@horton.com,visual_art,photography,GB,USD,pro,True,False,2021-10-08 00:00:00,2023-01-23 00:00:00,,active
+cr_0150,Pena-Bass,creator150@russell.com,video,vlogs,GB,USD,premium,False,False,2021-11-07 00:00:00,2023-02-16 00:00:00,,active
+cr_0151,Ramos and Sons,creator151@garcia-jennings.net,education,programming,NL,EUR,lite,False,True,2021-10-08 00:00:00,2023-02-13 00:00:00,,active
+cr_0152,Howard Sanders and Lopez,creator152@rush.com,visual_art,digital_illustration,SE,EUR,pro,False,True,2021-06-10 00:00:00,2023-02-05 00:00:00,,active
+cr_0153,Lewis Fowler and Maddox,creator153@buchanan.com,podcasts,comedy,AU,USD,pro,False,True,2021-06-10 00:00:00,2023-01-17 00:00:00,,active
+cr_0154,Harris Gallegos and Spencer,creator154@robinson.com,education,languages,DE,EUR,premium,False,True,2021-02-10 00:00:00,2023-01-31 00:00:00,,active
+cr_0155,Smith Garrison and Thomas,creator155@fernandez.com,video,gaming,ES,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-14 00:00:00,,active
+cr_0156,Delacruz Anderson and Howard,creator156@chapman.com,video,tutorials,GB,USD,premium,False,True,2021-12-07 00:00:00,2023-01-16 00:00:00,,active
+cr_0157,Williams-Harmon,creator157@wilson.com,music,original,GB,USD,pro,False,True,2021-06-10 00:00:00,2023-02-10 00:00:00,,active
+cr_0158,Wheeler Hayes and Walker,creator158@williams.net,visual_art,comics,NL,EUR,pro,False,False,2021-09-08 00:00:00,2023-02-14 00:00:00,,active
+cr_0159,Ellis-Maynard,creator159@lutz.biz,visual_art,comics,ES,EUR,premium,False,False,2022-06-05 00:00:00,2023-01-21 00:00:00,,active
+cr_0160,Rodriguez Joseph and Wallace,creator160@morris.com,podcasts,interviews,AU,USD,pro,False,False,2021-05-11 00:00:00,2023-01-29 00:00:00,,active
+cr_0161,Hill Ltd,creator161@kelley.net,games,reviews,SE,EUR,premium,False,True,2022-06-05 00:00:00,2023-02-12 00:00:00,,active
+cr_0162,Chavez-Jacobs,creator162@mcguire.net,education,programming,NL,EUR,pro,False,False,2021-09-08 00:00:00,2023-03-03 00:00:00,,active
+cr_0163,Glenn Jordan and Beasley,creator163@morgan-chavez.biz,writing,poetry,FR,EUR,pro,False,True,2021-01-11 00:00:00,2023-02-04 00:00:00,,active
+cr_0164,Davis Simmons and Ortega,creator164@mckay-mcdaniel.info,music,covers,NO,NOK,premium,False,True,2021-03-12 00:00:00,2023-02-11 00:00:00,,active
+cr_0165,Davis Studio,creator165@reynolds.com,games,reviews,DE,EUR,premium,False,True,2021-12-07 00:00:00,2023-02-13 00:00:00,,active
+cr_0166,Hawkins PLC,creator166@hoffman.biz,games,lets_plays,NO,NOK,pro,False,True,2021-08-09 00:00:00,2023-01-25 00:00:00,,active
+cr_0167,Williams Roberts and Edwards,creator167@lane.com,visual_art,digital_illustration,DE,EUR,premium,False,True,2022-01-06 00:00:00,2023-02-07 00:00:00,,active
+cr_0168,Olson Boone and Bell,creator168@richardson.biz,video,tech,AU,USD,premium,False,False,2021-02-10 00:00:00,2023-02-27 00:00:00,,active
+cr_0169,Villegas Cardenas and Austin,creator169@hawkins.com,podcasts,comedy,GB,USD,premium,False,True,2022-05-06 00:00:00,2023-02-07 00:00:00,,active
+cr_0170,White Ltd,creator170@dorsey-bell.com,video,tutorials,NL,EUR,pro,False,True,2021-05-11 00:00:00,2023-01-18 00:00:00,,active
+cr_0171,Knight Group,creator171@thomas.com,visual_art,animation,NO,NOK,premium,False,True,2021-07-10 00:00:00,2023-03-17 00:00:00,,active
+cr_0172,Reese and Sons,creator172@barnes-peterson.com,games,reviews,GB,USD,lite,False,False,2021-07-10 00:00:00,2023-02-12 00:00:00,,active
+cr_0173,Griffith-Frank,creator173@carlson.org,video,gaming,DE,EUR,pro,False,True,2021-03-12 00:00:00,2023-02-08 00:00:00,,active
+cr_0174,Craig Creative,creator174@stanley-tucker.info,video,gaming,AU,USD,premium,False,True,2022-01-06 00:00:00,2023-01-24 00:00:00,,active
+cr_0175,Nelson-Fischer,creator175@reed.com,video,gaming,AU,USD,premium,False,True,2021-02-10 00:00:00,2023-02-02 00:00:00,,active
+cr_0176,Gregory Tucker and Estrada,creator176@walker.com,music,production,US,USD,pro,False,False,2021-11-07 00:00:00,2023-02-07 00:00:00,,active
+cr_0177,Harris and Sons,creator177@duran.com,writing,fiction,FR,EUR,lite,False,True,2021-09-08 00:00:00,2023-02-10 00:00:00,,active
+cr_0178,Smith Ltd,creator178@thompson-james.com,music,original,AU,USD,pro,False,False,2022-01-06 00:00:00,2023-02-23 00:00:00,,active
+cr_0179,Hansen Barnett and Gomez,creator179@hensley-williams.com,podcasts,comedy,NO,NOK,pro,False,True,2021-07-10 00:00:00,2023-02-13 00:00:00,,active
+cr_0180,Morse-Atkins,creator180@patterson.com,games,tutorials,DE,EUR,pro,False,False,2022-02-05 00:00:00,2023-02-21 00:00:00,,active
+cr_0181,Sullivan Creative,creator181@solis.info,music,original,NO,NOK,pro,False,False,2021-03-12 00:00:00,2023-02-09 00:00:00,,active
+cr_0182,Gillespie Davis and Richard,creator182@graham.net,music,production,NL,EUR,premium,True,False,2022-02-05 00:00:00,2023-02-02 00:00:00,,active
+cr_0183,Foster Creative,creator183@morgan.net,writing,newsletters,NL,EUR,pro,False,False,2021-11-07 00:00:00,2023-01-30 00:00:00,,active
+cr_0184,Wilson Hicks and Bullock,creator184@bell-mullen.com,games,tutorials,SE,EUR,pro,False,False,2021-10-08 00:00:00,2023-02-18 00:00:00,,active
+cr_0185,Garcia Creative,creator185@thompson.com,video,vlogs,FR,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-12 00:00:00,,active
+cr_0186,Bean Ltd,creator186@marshall-elliott.org,podcasts,interviews,DE,EUR,lite,False,False,2021-04-11 00:00:00,2023-02-03 00:00:00,,active
+cr_0187,Maldonado-Macias,creator187@reid.com,visual_art,photography,NL,EUR,premium,False,False,2022-05-06 00:00:00,2023-01-20 00:00:00,,active
+cr_0188,Gonzales Group,creator188@welch-hogan.org,education,fitness,NL,EUR,pro,False,True,2021-01-11 00:00:00,2023-02-04 00:00:00,,active
+cr_0189,Bell Studio,creator189@murray-johnson.com,video,tech,AU,USD,premium,False,True,2021-10-08 00:00:00,2023-02-13 00:00:00,,active
+cr_0190,Jones-Lin,creator190@gilbert.biz,music,original,ES,EUR,pro,False,True,2021-01-11 00:00:00,2023-02-23 00:00:00,,active
+cr_0191,Carpenter-Best,creator191@huang.com,music,original,GB,USD,premium,False,True,2022-04-06 00:00:00,2023-01-26 00:00:00,,active
+cr_0192,Jacobs-Mason,creator192@hayes.com,video,gaming,SE,EUR,premium,False,True,2021-03-12 00:00:00,2023-01-20 00:00:00,,active
+cr_0193,Lucas Williams and Zimmerman,creator193@warren-bishop.com,visual_art,photography,FR,EUR,pro,True,True,2021-04-11 00:00:00,2023-02-20 00:00:00,,active
+cr_0194,Hardin-Hughes,creator194@shelton-williams.com,writing,poetry,DE,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-01 00:00:00,,active
+cr_0195,Rivera PLC,creator195@hughes.org,podcasts,comedy,FR,EUR,premium,False,True,2021-03-12 00:00:00,2023-02-03 00:00:00,,active
+cr_0196,Cook PLC,creator196@thomas.biz,podcasts,true_crime,AU,USD,premium,False,True,2021-02-10 00:00:00,2023-02-15 00:00:00,,active
+cr_0197,Larson Studio,creator197@hansen-schneider.com,podcasts,history,CA,USD,pro,True,True,2022-02-05 00:00:00,2023-03-17 00:00:00,,active
+cr_0198,Santiago Ltd,creator198@gaines.net,visual_art,animation,CA,USD,pro,False,False,2021-03-12 00:00:00,2023-01-29 00:00:00,,active
+cr_0199,Smith-Parker,creator199@peterson.com,education,fitness,AU,USD,premium,False,False,2022-06-05 00:00:00,2023-01-26 00:00:00,,active
+cr_0200,Cooke and Sons,creator200@phillips.net,podcasts,interviews,DE,EUR,premium,False,True,2021-05-11 00:00:00,2023-01-29 00:00:00,,active
+cr_0201,Conley Stephenson and Johnson,creator201@walter-williamson.org,games,game_development,GB,USD,pro,True,True,2022-02-05 00:00:00,2023-01-28 00:00:00,,active
+cr_0202,Moore-White,creator202@wise.info,video,tutorials,NL,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-16 00:00:00,,active
+cr_0203,Jenkins Ltd,creator203@young.info,podcasts,comedy,GB,USD,premium,False,True,2021-06-10 00:00:00,2023-01-29 00:00:00,,active
+cr_0204,Ferguson Creative,creator204@mckee-lee.org,podcasts,interviews,AU,USD,premium,False,True,2022-05-06 00:00:00,2023-03-03 00:00:00,,active
+cr_0205,Murray-Campbell,creator205@shaw-barnes.com,podcasts,interviews,SE,EUR,pro,False,True,2022-04-06 00:00:00,2023-02-08 00:00:00,,active
+cr_0206,Solis and Sons,creator206@williams-castillo.com,visual_art,digital_illustration,NL,EUR,pro,False,True,2022-06-05 00:00:00,2023-01-16 00:00:00,,active
+cr_0207,Villa Dawson and Black,creator207@mitchell.com,visual_art,comics,FR,EUR,pro,False,False,2021-02-10 00:00:00,2023-01-31 00:00:00,,active
+cr_0208,Whitehead-Hernandez,creator208@davis-lozano.info,education,fitness,FR,EUR,premium,False,True,2021-09-08 00:00:00,2023-02-09 00:00:00,,active
+cr_0209,Arias-Perry,creator209@shaw-young.com,visual_art,photography,FR,EUR,premium,False,True,2021-04-11 00:00:00,2023-02-16 00:00:00,,active
+cr_0210,Walker-Flores,creator210@combs.com,podcasts,interviews,GB,USD,pro,False,True,2022-07-05 00:00:00,2023-02-01 00:00:00,,active
+cr_0211,Taylor Creative,creator211@horton-taylor.info,writing,journalism,GB,USD,lite,False,True,2022-01-06 00:00:00,2023-02-24 00:00:00,,active
+cr_0212,Gilbert-Bullock,creator212@scott.net,writing,journalism,US,USD,lite,False,False,2021-08-09 00:00:00,2023-02-18 00:00:00,,active
+cr_0213,Lynch Henderson and Parsons,creator213@turner.com,visual_art,digital_illustration,SE,EUR,premium,False,False,2022-01-06 00:00:00,2023-01-27 00:00:00,,active
+cr_0214,Fowler-Dean,creator214@rodriguez.org,writing,journalism,ES,EUR,premium,False,True,2021-05-11 00:00:00,2023-01-21 00:00:00,,active
+cr_0215,Smith Robertson and Allen,creator215@carter.org,writing,newsletters,SE,EUR,pro,False,False,2022-05-06 00:00:00,2023-02-03 00:00:00,,active
+cr_0216,Allen-Butler,creator216@barnett.net,visual_art,animation,SE,EUR,premium,False,False,2021-07-10 00:00:00,2023-01-17 00:00:00,,active
+cr_0217,Romero Mcneil and Spencer,creator217@marks-williams.biz,video,vlogs,GB,USD,pro,False,True,2021-01-11 00:00:00,2023-02-12 00:00:00,,active
+cr_0218,King-Smith,creator218@cooper.com,visual_art,photography,NO,NOK,pro,False,True,2022-05-06 00:00:00,2023-01-09 00:00:00,,active
+cr_0219,Moss Cook and Williams,creator219@morgan.info,podcasts,comedy,US,USD,premium,False,False,2021-08-09 00:00:00,2023-01-12 00:00:00,,active
+cr_0220,Mendoza White and Taylor,creator220@parsons.com,video,vlogs,AU,USD,pro,False,True,2021-08-09 00:00:00,2023-02-08 00:00:00,,active
+cr_0221,Blackwell Creative,creator221@robertson-hays.net,visual_art,comics,AU,USD,premium,False,True,2022-06-05 00:00:00,2023-02-18 00:00:00,,active
+cr_0222,King-Mullins,creator222@mitchell.com,video,tutorials,CA,USD,premium,False,False,2021-08-09 00:00:00,2023-02-12 00:00:00,,active
+cr_0223,Martinez-Richardson,creator223@paul-kline.biz,podcasts,interviews,ES,EUR,premium,False,True,2022-04-06 00:00:00,2023-02-01 00:00:00,,active
+cr_0224,Beltran-Crawford,creator224@richardson-salinas.com,video,gaming,SE,EUR,pro,False,True,2021-07-10 00:00:00,2023-02-14 00:00:00,,active
+cr_0225,Acosta Studio,creator225@morrison-short.net,visual_art,digital_illustration,ES,EUR,pro,False,False,2022-06-05 00:00:00,2023-02-04 00:00:00,,active
+cr_0226,Morris-Miller,creator226@phillips.com,video,tech,US,USD,premium,False,False,2022-03-07 00:00:00,2023-02-13 00:00:00,,active
+cr_0227,Wallace West and Acosta,creator227@mendez-graham.com,visual_art,photography,CA,USD,pro,False,True,2021-10-08 00:00:00,2023-01-10 00:00:00,,active
+cr_0228,Lambert Group,creator228@palmer-brady.com,education,programming,DE,EUR,pro,False,False,2022-07-05 00:00:00,2023-01-27 00:00:00,,active
+cr_0229,Thomas PLC,creator229@harrington.com,podcasts,interviews,DE,EUR,pro,False,False,2021-09-08 00:00:00,2023-03-02 00:00:00,,active
+cr_0230,Reyes-Bradley,creator230@hernandez.info,education,fitness,FR,EUR,pro,False,True,2021-05-11 00:00:00,2023-01-25 00:00:00,,active
+cr_0231,Berry PLC,creator231@sanders-banks.com,podcasts,comedy,AU,USD,pro,False,True,2022-03-07 00:00:00,2023-02-20 00:00:00,,active
+cr_0232,Johnson and Sons,creator232@holmes-mcintyre.com,podcasts,comedy,US,USD,pro,True,True,2022-03-07 00:00:00,2023-02-08 00:00:00,,active
+cr_0233,Hampton-Padilla,creator233@davies.info,games,tutorials,GB,USD,pro,False,True,2021-09-08 00:00:00,2023-02-19 00:00:00,,active
+cr_0234,Martinez Studio,creator234@thompson-reeves.com,video,tutorials,ES,EUR,premium,False,True,2021-02-10 00:00:00,2023-03-05 00:00:00,,active
+cr_0235,Ponce Downs and Contreras,creator235@brown.com,video,vlogs,NO,NOK,premium,False,True,2021-02-10 00:00:00,2023-02-08 00:00:00,,active
+cr_0236,Mckinney Graves and Thompson,creator236@hicks-martinez.com,education,programming,DE,EUR,lite,False,True,2022-02-05 00:00:00,2023-01-28 00:00:00,,active
+cr_0237,Young Group,creator237@ward.com,games,reviews,GB,USD,pro,False,False,2021-10-08 00:00:00,2023-02-14 00:00:00,,active
+cr_0238,Lara-Arnold,creator238@henson.info,education,music_lessons,SE,EUR,premium,False,True,2021-12-07 00:00:00,2023-01-23 00:00:00,,active
+cr_0239,Jenkins Ortiz and Andrews,creator239@compton.com,education,programming,DE,EUR,pro,False,True,2021-04-11 00:00:00,2023-02-11 00:00:00,,active
+cr_0240,Owens-Holmes,creator240@humphrey.org,visual_art,photography,US,USD,pro,False,False,2021-11-07 00:00:00,2023-03-02 00:00:00,,active
+cr_0241,Saunders and Sons,creator241@shaw-oneill.com,visual_art,digital_illustration,AU,USD,premium,False,False,2021-09-08 00:00:00,2023-02-15 00:00:00,,active
+cr_0242,Hernandez Martin and Morris,creator242@perez.com,video,gaming,SE,EUR,pro,False,True,2021-02-10 00:00:00,2023-01-24 00:00:00,,active
+cr_0243,King Ltd,creator243@hill.com,video,tutorials,US,USD,pro,False,True,2021-05-11 00:00:00,2023-02-06 00:00:00,,active
+cr_0244,Davidson Vargas and Carpenter,creator244@hopkins.org,video,tech,US,USD,pro,False,True,2022-07-05 00:00:00,2023-02-22 00:00:00,,active
+cr_0245,Kirby-Elliott,creator245@miller.org,visual_art,animation,NO,NOK,premium,False,True,2021-06-10 00:00:00,2023-02-06 00:00:00,,active
+cr_0246,Curtis-Wang,creator246@montgomery-johnson.net,games,lets_plays,DE,EUR,premium,False,True,2022-02-05 00:00:00,2023-02-22 00:00:00,,active
+cr_0247,May-Turner,creator247@ballard.biz,visual_art,photography,AU,USD,premium,False,False,2021-08-09 00:00:00,2023-01-16 00:00:00,,active
+cr_0248,Chavez-Barker,creator248@gonzales.info,education,music_lessons,DE,EUR,pro,True,True,2021-09-08 00:00:00,2023-01-31 00:00:00,,active
+cr_0249,Peterson and Sons,creator249@hensley-flores.com,music,covers,CA,USD,pro,False,True,2022-04-06 00:00:00,2023-01-07 00:00:00,,active
+cr_0250,Anderson-Wood,creator250@rodriguez.info,podcasts,history,DE,EUR,pro,False,False,2022-04-06 00:00:00,2023-01-23 00:00:00,,active
+cr_0251,Thomas Studio,creator251@dougherty-lin.biz,visual_art,animation,AU,USD,premium,False,False,2021-10-08 00:00:00,2023-02-10 00:00:00,,active
+cr_0252,Estes and Sons,creator252@peck-griffith.com,writing,journalism,ES,EUR,premium,False,True,2021-09-08 00:00:00,2023-01-31 00:00:00,,active
+cr_0253,Jimenez PLC,creator253@jimenez-parker.com,education,fitness,NO,NOK,pro,False,True,2021-03-12 00:00:00,2023-02-05 00:00:00,,active
+cr_0254,Landry PLC,creator254@levy-lewis.com,podcasts,true_crime,NL,EUR,pro,False,True,2022-07-05 00:00:00,2023-02-06 00:00:00,,active
+cr_0255,Williams Group,creator255@khan.net,education,programming,NO,NOK,pro,False,True,2021-11-07 00:00:00,2023-02-14 00:00:00,,active
+cr_0256,Boone Group,creator256@khan.com,writing,poetry,US,USD,pro,False,True,2021-04-11 00:00:00,2023-02-13 00:00:00,,active
+cr_0257,Diaz-Morales,creator257@hoffman.biz,writing,poetry,NO,NOK,premium,False,True,2022-01-06 00:00:00,2023-02-06 00:00:00,,active
+cr_0258,Cole Pierce and Bryan,creator258@becker.biz,video,tech,US,USD,premium,False,True,2021-05-11 00:00:00,2023-01-17 00:00:00,,active
+cr_0259,Norton-Morgan,creator259@fischer-gonzalez.net,podcasts,interviews,CA,USD,premium,False,True,2022-03-07 00:00:00,2023-03-19 00:00:00,,active
+cr_0260,Porter-Williams,creator260@reeves.net,video,tech,CA,USD,pro,False,True,2022-06-05 00:00:00,2023-02-07 00:00:00,,active
+cr_0261,Hernandez-Barry,creator261@murphy.com,video,tech,ES,EUR,pro,False,True,2021-03-12 00:00:00,2023-02-22 00:00:00,,active
+cr_0262,Long PLC,creator262@kirby.net,video,vlogs,AU,USD,pro,False,True,2022-01-06 00:00:00,2023-03-10 00:00:00,,active
+cr_0263,Burns Hart and Wells,creator263@richardson.com,video,tutorials,SE,EUR,premium,False,False,2022-02-05 00:00:00,2023-01-21 00:00:00,,active
+cr_0264,Silva-Robles,creator264@wiggins.com,education,fitness,FR,EUR,pro,False,True,2021-12-07 00:00:00,2023-01-23 00:00:00,,active
+cr_0265,Patton Parsons and Lane,creator265@williams.org,visual_art,comics,GB,USD,lite,False,True,2022-02-05 00:00:00,2023-02-18 00:00:00,,active
+cr_0266,Hernandez-Becker,creator266@armstrong.com,education,languages,FR,EUR,pro,False,True,2021-12-07 00:00:00,2023-03-24 00:00:00,,active
+cr_0267,Smith Creative,creator267@hernandez-vaughn.biz,education,programming,NO,NOK,pro,False,False,2021-04-11 00:00:00,2023-02-24 00:00:00,,active
+cr_0268,Hampton Knapp and Salas,creator268@luna.net,video,vlogs,AU,USD,pro,False,True,2021-12-07 00:00:00,2023-03-03 00:00:00,,active
+cr_0269,Bolton-Mendoza,creator269@edwards-thompson.net,games,lets_plays,AU,USD,lite,False,False,2022-03-07 00:00:00,2023-01-29 00:00:00,,active
+cr_0270,Payne-Lowe,creator270@becker.info,visual_art,comics,NL,EUR,premium,False,False,2021-02-10 00:00:00,2023-02-07 00:00:00,,active
+cr_0271,Bernard Creative,creator271@evans.com,writing,journalism,AU,USD,pro,False,True,2021-06-10 00:00:00,2023-02-10 00:00:00,,active
+cr_0272,Clark Bush and Stewart,creator272@castro-michael.com,podcasts,comedy,US,USD,pro,False,True,2021-11-07 00:00:00,2023-02-27 00:00:00,,active
+cr_0273,Martinez-Rhodes,creator273@huang-foster.com,visual_art,photography,CA,USD,premium,False,True,2022-02-05 00:00:00,2023-03-02 00:00:00,,active
+cr_0274,Roberts Creative,creator274@miller.info,video,vlogs,US,USD,pro,False,True,2021-05-11 00:00:00,2023-02-06 00:00:00,,active
+cr_0275,Harris PLC,creator275@fitzpatrick-horton.com,writing,journalism,FR,EUR,pro,False,False,2021-06-10 00:00:00,2023-01-29 00:00:00,,active
+cr_0276,Gilbert PLC,creator276@sanchez.net,video,tutorials,GB,USD,pro,False,True,2022-06-05 00:00:00,2023-01-24 00:00:00,,active
+cr_0277,Little Studio,creator277@gutierrez.info,music,original,AU,USD,premium,False,False,2022-07-05 00:00:00,2023-01-30 00:00:00,,active
+cr_0278,Maldonado and Sons,creator278@oconnell.biz,writing,poetry,CA,USD,pro,False,True,2022-05-06 00:00:00,2023-02-28 00:00:00,,active
+cr_0279,Donovan Johns and Woods,creator279@avila.com,podcasts,true_crime,SE,EUR,pro,False,False,2022-04-06 00:00:00,2023-02-14 00:00:00,,active
+cr_0280,Brewer-Velez,creator280@pearson.net,podcasts,interviews,AU,USD,pro,False,True,2021-07-10 00:00:00,2023-02-02 00:00:00,,active
+cr_0281,Sharp Zuniga and Gentry,creator281@butler.com,podcasts,true_crime,ES,EUR,pro,False,False,2022-06-05 00:00:00,2023-01-10 00:00:00,,active
+cr_0282,French-Lopez,creator282@hayden.com,visual_art,comics,GB,USD,pro,False,False,2021-09-08 00:00:00,2023-02-18 00:00:00,,active
+cr_0283,Bradley-Rodriguez,creator283@mitchell-hays.net,podcasts,comedy,CA,USD,pro,False,True,2021-11-07 00:00:00,2023-01-28 00:00:00,,active
+cr_0284,Snyder Mays and Rosales,creator284@nelson-lamb.com,education,fitness,DE,EUR,premium,False,True,2021-03-12 00:00:00,2023-02-25 00:00:00,,active
+cr_0285,Simon Ltd,creator285@higgins-smith.com,visual_art,photography,DE,EUR,premium,False,True,2021-02-10 00:00:00,2023-01-19 00:00:00,,active
+cr_0286,Bradley-Todd,creator286@carr.biz,video,vlogs,ES,EUR,premium,False,True,2021-06-10 00:00:00,2023-02-07 00:00:00,,active
+cr_0287,Robertson-Miller,creator287@davis.com,video,tutorials,DE,EUR,premium,False,True,2022-02-05 00:00:00,2023-02-14 00:00:00,,active
+cr_0288,Green and Sons,creator288@molina-finley.com,podcasts,history,DE,EUR,pro,False,True,2021-02-10 00:00:00,2023-02-24 00:00:00,,active
+cr_0289,Sharp Smith and Valdez,creator289@young.com,video,tech,DE,EUR,premium,False,True,2021-09-08 00:00:00,2023-02-02 00:00:00,,active
+cr_0290,Parks-Leblanc,creator290@carrillo.com,podcasts,interviews,GB,USD,pro,False,True,2021-04-11 00:00:00,2023-03-15 00:00:00,,active
+cr_0291,Mendez-Robinson,creator291@mendoza.org,visual_art,digital_illustration,US,USD,lite,False,True,2021-10-08 00:00:00,2023-01-31 00:00:00,,active
+cr_0292,Perry-Dunn,creator292@todd-pham.com,education,fitness,US,USD,premium,True,False,2021-04-11 00:00:00,2023-03-22 00:00:00,,active
+cr_0293,Becker PLC,creator293@fox.com,visual_art,photography,NL,EUR,premium,False,True,2022-06-05 00:00:00,2023-01-28 00:00:00,,active
+cr_0294,Stark Studio,creator294@poole.com,podcasts,interviews,CA,USD,pro,False,True,2021-07-10 00:00:00,2023-02-18 00:00:00,,active
+cr_0295,Herrera Martin and Bond,creator295@wilson-harris.org,podcasts,interviews,US,USD,pro,False,True,2021-09-08 00:00:00,2023-03-04 00:00:00,,active
+cr_0296,Davis-Dixon,creator296@chavez.biz,games,game_development,NO,NOK,pro,False,False,2021-12-07 00:00:00,2023-02-13 00:00:00,,active
+cr_0297,Elliott-Hansen,creator297@roman.com,music,production,NO,NOK,pro,False,False,2021-01-11 00:00:00,2023-02-09 00:00:00,,active
+cr_0298,Robinson Jones and Henderson,creator298@brown.com,video,gaming,US,USD,pro,False,True,2021-05-11 00:00:00,2023-02-16 00:00:00,,active
+cr_0299,Johnson-Ortiz,creator299@cannon.biz,video,gaming,US,USD,pro,False,True,2022-05-06 00:00:00,2023-02-19 00:00:00,,active
+cr_0300,Haney-Reyes,creator300@bennett-vega.net,games,reviews,NO,NOK,premium,False,False,2021-02-10 00:00:00,2023-02-11 00:00:00,,active
+cr_0301,Valdez Creative,creator301@white.biz,visual_art,digital_illustration,GB,USD,pro,False,False,2021-04-11 00:00:00,2023-02-28 00:00:00,,active
+cr_0302,Anderson Irwin and Davenport,creator302@good.net,podcasts,history,NO,NOK,premium,False,True,2021-12-07 00:00:00,2023-03-12 00:00:00,,active
+cr_0303,Patel-Morrow,creator303@murray.com,podcasts,interviews,US,USD,premium,False,False,2021-01-11 00:00:00,2023-02-19 00:00:00,,active
+cr_0304,Pineda Ltd,creator304@johnson.biz,writing,fiction,SE,EUR,pro,False,True,2021-08-09 00:00:00,2023-01-12 00:00:00,,active
+cr_0305,Miranda Stephenson and Smith,creator305@jones.com,games,lets_plays,ES,EUR,pro,False,True,2021-12-07 00:00:00,2023-02-09 00:00:00,,active
+cr_0306,Harper-Warner,creator306@sanchez.biz,education,programming,GB,USD,pro,False,True,2021-07-10 00:00:00,2023-03-08 00:00:00,,active
+cr_0307,Young-Robinson,creator307@taylor.com,games,reviews,ES,EUR,premium,False,True,2021-01-11 00:00:00,2023-02-23 00:00:00,,active
+cr_0308,Johnston Ray and Barton,creator308@young-walter.net,visual_art,animation,FR,EUR,pro,False,False,2022-05-06 00:00:00,2023-02-02 00:00:00,,active
+cr_0309,Gutierrez Creative,creator309@hawkins.com,education,fitness,NL,EUR,pro,True,True,2022-03-07 00:00:00,2023-02-07 00:00:00,,active
+cr_0310,Shelton Peters and Williams,creator310@david-powers.net,education,programming,NL,EUR,pro,False,True,2022-04-06 00:00:00,2023-03-12 00:00:00,,active
+cr_0311,Horton-Russell,creator311@bennett-webster.info,video,tech,ES,EUR,premium,False,True,2021-06-10 00:00:00,2023-01-17 00:00:00,,active
+cr_0312,Atkinson Creative,creator312@thomas.biz,visual_art,animation,NO,NOK,premium,False,True,2021-10-08 00:00:00,2023-03-05 00:00:00,,active
+cr_0313,Grant-Anderson,creator313@scott.com,education,programming,CA,USD,premium,False,True,2021-09-08 00:00:00,2023-01-22 00:00:00,,active
+cr_0314,Boone-Davis,creator314@calderon.org,podcasts,comedy,AU,USD,premium,False,True,2022-04-06 00:00:00,2023-02-12 00:00:00,,active
+cr_0315,Williams Jones and Ballard,creator315@ramsey.com,education,languages,ES,EUR,pro,False,True,2021-12-07 00:00:00,2023-01-30 00:00:00,,active
+cr_0316,Krueger-Smith,creator316@hayden.info,writing,poetry,ES,EUR,premium,False,False,2021-03-12 00:00:00,2023-02-09 00:00:00,,active
+cr_0317,Dominguez Ltd,creator317@sanders.net,podcasts,true_crime,NL,EUR,premium,False,False,2022-04-06 00:00:00,2023-03-07 00:00:00,,active
+cr_0318,Rowe-James,creator318@wong.info,video,vlogs,US,USD,premium,False,True,2021-01-11 00:00:00,2023-02-05 00:00:00,,active
+cr_0319,Garcia-Zavala,creator319@gill-flores.com,education,languages,DE,EUR,premium,False,True,2022-02-05 00:00:00,2023-01-11 00:00:00,,active
+cr_0320,Edwards-Williams,creator320@figueroa.com,podcasts,comedy,ES,EUR,pro,False,True,2021-03-12 00:00:00,2023-02-19 00:00:00,,active
+cr_0321,Donovan Riley and Butler,creator321@gonzalez.biz,writing,newsletters,SE,EUR,lite,False,True,2021-09-08 00:00:00,2023-01-31 00:00:00,,active
+cr_0322,Whitaker Porter and Pena,creator322@morgan.info,education,fitness,FR,EUR,lite,False,False,2021-05-11 00:00:00,2023-01-19 00:00:00,,active
+cr_0323,Jackson-Norton,creator323@taylor.info,games,game_development,GB,USD,pro,False,True,2021-10-08 00:00:00,2023-01-31 00:00:00,,active
+cr_0324,Stark PLC,creator324@bernard.com,visual_art,comics,CA,USD,lite,False,True,2021-03-12 00:00:00,2023-03-07 00:00:00,,active
+cr_0325,Williams Smith and Taylor,creator325@hall.net,writing,fiction,AU,USD,premium,False,True,2022-03-07 00:00:00,2023-01-18 00:00:00,,active
+cr_0326,Brooks-Williamson,creator326@peck.com,podcasts,interviews,ES,EUR,pro,False,False,2022-01-06 00:00:00,2023-01-20 00:00:00,,active
+cr_0327,Patel Group,creator327@smith.com,education,languages,SE,EUR,premium,False,False,2021-06-10 00:00:00,2023-02-20 00:00:00,,active
+cr_0328,Madden Smith and Li,creator328@jordan.com,podcasts,interviews,FR,EUR,pro,False,False,2021-10-08 00:00:00,2023-02-14 00:00:00,,active
+cr_0329,Hernandez Lee and Fox,creator329@adams-sanders.com,podcasts,interviews,FR,EUR,pro,False,True,2021-04-11 00:00:00,2023-01-26 00:00:00,,active
+cr_0330,Stevens-Sanchez,creator330@perez.com,podcasts,interviews,AU,USD,premium,False,True,2021-09-08 00:00:00,2023-02-16 00:00:00,,active
+cr_0331,Sullivan Group,creator331@alvarez.com,video,tutorials,FR,EUR,premium,True,True,2022-01-06 00:00:00,2023-01-08 00:00:00,,active
+cr_0332,Bruce-Newman,creator332@knight-hodge.com,games,reviews,ES,EUR,pro,False,False,2021-04-11 00:00:00,2023-02-15 00:00:00,,active
+cr_0333,Ellison Hall and Valenzuela,creator333@clay.com,visual_art,digital_illustration,DE,EUR,premium,False,True,2021-02-10 00:00:00,2023-02-11 00:00:00,,active
+cr_0334,Frost Lam and Elliott,creator334@white.com,visual_art,digital_illustration,SE,EUR,pro,True,False,2021-08-09 00:00:00,2023-02-07 00:00:00,,active
+cr_0335,Matthews Ltd,creator335@hickman-evans.org,video,tech,FR,EUR,pro,False,True,2022-01-06 00:00:00,2023-02-22 00:00:00,,active
+cr_0336,Knight Group,creator336@mosley.com,writing,journalism,SE,EUR,premium,False,True,2021-09-08 00:00:00,2023-02-23 00:00:00,,active
+cr_0337,Ramsey Mason and Mccann,creator337@davis.com,podcasts,true_crime,NO,NOK,pro,False,False,2022-07-05 00:00:00,2023-02-07 00:00:00,,active
+cr_0338,Jacobs-Austin,creator338@sanders.com,education,languages,CA,USD,premium,False,True,2021-04-11 00:00:00,2023-01-27 00:00:00,,active
+cr_0339,Henry-Kelly,creator339@reynolds-frazier.biz,visual_art,animation,CA,USD,pro,False,True,2021-10-08 00:00:00,2023-01-23 00:00:00,,active
+cr_0340,Barton Creative,creator340@marquez.com,video,vlogs,AU,USD,pro,False,False,2022-04-06 00:00:00,2023-01-18 00:00:00,,active
+cr_0341,James Ltd,creator341@singh.com,writing,poetry,SE,EUR,pro,False,True,2021-06-10 00:00:00,2023-02-19 00:00:00,,active
+cr_0342,Davis Creative,creator342@ward-nelson.com,visual_art,animation,NL,EUR,pro,False,False,2022-05-06 00:00:00,2023-02-22 00:00:00,,active
+cr_0343,Lopez Group,creator343@peters.com,video,tutorials,CA,USD,pro,False,True,2021-02-10 00:00:00,2023-02-27 00:00:00,,active
+cr_0344,Davis George and Nguyen,creator344@smith-gutierrez.com,podcasts,interviews,AU,USD,pro,False,True,2021-11-07 00:00:00,2023-02-05 00:00:00,,active
+cr_0345,Santana Stein and Spence,creator345@meyer.com,podcasts,true_crime,GB,USD,pro,False,False,2021-12-07 00:00:00,2023-01-20 00:00:00,,active
+cr_0346,Adams-Thomas,creator346@hamilton.com,video,tutorials,CA,USD,premium,False,True,2021-07-10 00:00:00,2023-03-03 00:00:00,,active
+cr_0347,Patton-Ward,creator347@le.org,visual_art,photography,DE,EUR,premium,False,True,2021-12-07 00:00:00,2023-02-02 00:00:00,,active
+cr_0348,Gonzalez Rodriguez and Torres,creator348@cook-oliver.com,writing,journalism,SE,EUR,premium,False,False,2021-01-11 00:00:00,2023-02-25 00:00:00,,active
+cr_0349,Cook-Ochoa,creator349@mccann.com,video,tutorials,GB,USD,pro,False,True,2021-07-10 00:00:00,2023-02-23 00:00:00,,active
+cr_0350,Edwards-Oconnell,creator350@carter-neal.info,podcasts,comedy,SE,EUR,pro,True,False,2022-03-07 00:00:00,2023-02-07 00:00:00,,active
+cr_0351,Casey Nguyen and Ramirez,creator351@diaz-frederick.com,podcasts,true_crime,CA,USD,pro,False,False,2022-03-07 00:00:00,2023-02-16 00:00:00,,active
+cr_0352,Osborn White and Saunders,creator352@benton.com,visual_art,photography,SE,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-25 00:00:00,,active
+cr_0353,Salinas-Guerra,creator353@fuentes.info,video,gaming,NO,NOK,pro,False,True,2022-05-06 00:00:00,2023-03-17 00:00:00,,active
+cr_0354,Schultz and Sons,creator354@hopkins-espinoza.biz,education,music_lessons,SE,EUR,premium,False,True,2022-06-05 00:00:00,2023-02-07 00:00:00,,active
+cr_0355,Cole PLC,creator355@aguilar-ferguson.biz,video,vlogs,DE,EUR,premium,False,True,2021-03-12 00:00:00,2023-02-10 00:00:00,,active
+cr_0356,Johnson Schmitt and Miles,creator356@wheeler.com,podcasts,history,GB,USD,pro,False,True,2021-04-11 00:00:00,2023-01-25 00:00:00,,active
+cr_0357,Ortega Jackson and Salazar,creator357@terrell.com,podcasts,history,NL,EUR,pro,False,True,2022-07-05 00:00:00,2023-01-25 00:00:00,,active
+cr_0358,Rodriguez-Garcia,creator358@dixon.net,writing,newsletters,DE,EUR,pro,False,True,2022-02-05 00:00:00,2023-01-30 00:00:00,,active
+cr_0359,Watts Walker and Brooks,creator359@barton-chapman.net,music,lessons,ES,EUR,premium,False,False,2021-03-12 00:00:00,2023-02-12 00:00:00,,active
+cr_0360,Cooper Studio,creator360@garcia-perry.com,education,languages,NL,EUR,pro,False,True,2022-06-05 00:00:00,2023-02-06 00:00:00,,active
+cr_0361,Guerra Ltd,creator361@bailey.info,podcasts,comedy,AU,USD,pro,False,True,2021-06-10 00:00:00,2023-02-04 00:00:00,,active
+cr_0362,Boyd Creative,creator362@davis-bowen.info,games,lets_plays,SE,EUR,pro,False,False,2021-04-11 00:00:00,2023-02-08 00:00:00,,active
+cr_0363,Jones-Williams,creator363@wilson.com,writing,poetry,ES,EUR,premium,False,True,2021-07-10 00:00:00,2023-02-09 00:00:00,,active
+cr_0364,Sanchez Thompson and Moore,creator364@simmons.com,visual_art,photography,AU,USD,pro,False,True,2021-05-11 00:00:00,2023-02-07 00:00:00,,active
+cr_0365,Davidson Group,creator365@johnson-mendez.com,podcasts,true_crime,US,USD,pro,False,True,2021-11-07 00:00:00,2023-02-09 00:00:00,,active
+cr_0366,Vargas-Price,creator366@lewis.com,video,tutorials,SE,EUR,pro,False,False,2021-06-10 00:00:00,2023-02-25 00:00:00,,active
+cr_0367,Garcia Wiggins and Lopez,creator367@gonzalez-wilson.info,education,languages,NL,EUR,pro,False,True,2021-11-07 00:00:00,2023-01-26 00:00:00,,active
+cr_0368,Church Edwards and Price,creator368@matthews-bailey.info,writing,journalism,CA,USD,pro,False,True,2021-08-09 00:00:00,2023-01-26 00:00:00,,active
+cr_0369,Thompson Nunez and Mcbride,creator369@lawrence.com,education,fitness,CA,USD,pro,False,True,2022-03-07 00:00:00,2023-01-14 00:00:00,,active
+cr_0370,Wilson-Brooks,creator370@dixon.org,podcasts,comedy,GB,USD,premium,False,True,2021-03-12 00:00:00,2023-01-17 00:00:00,,active
+cr_0371,Andrews Group,creator371@tucker.com,video,vlogs,SE,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-10 00:00:00,,active
+cr_0372,Jackson Roberts and Lopez,creator372@harvey-glenn.com,music,original,AU,USD,premium,False,True,2021-01-11 00:00:00,2023-02-26 00:00:00,,active
+cr_0373,Taylor-Ochoa,creator373@wagner.biz,writing,newsletters,GB,USD,pro,False,False,2021-08-09 00:00:00,2023-04-03 00:00:00,,active
+cr_0374,Larsen Burns and Miller,creator374@flynn.com,video,gaming,FR,EUR,pro,False,True,2022-02-05 00:00:00,2023-02-08 00:00:00,,active
+cr_0375,Hill PLC,creator375@jackson-ellis.info,podcasts,interviews,NO,NOK,lite,False,True,2021-01-11 00:00:00,2023-02-13 00:00:00,,active
+cr_0376,Dixon Armstrong and Adams,creator376@morrow.com,podcasts,comedy,AU,USD,pro,False,True,2021-04-11 00:00:00,2023-02-02 00:00:00,,active
+cr_0377,Alexander Robinson and Coleman,creator377@greer.com,podcasts,true_crime,AU,USD,pro,False,False,2021-12-07 00:00:00,2023-03-10 00:00:00,,active
+cr_0378,Baker-Atkins,creator378@gonzales.com,visual_art,comics,FR,EUR,lite,False,True,2021-10-08 00:00:00,2023-01-28 00:00:00,,active
+cr_0379,Cochran PLC,creator379@bell.com,visual_art,animation,ES,EUR,pro,True,True,2021-01-11 00:00:00,2023-02-03 00:00:00,,active
+cr_0380,Taylor Clark and Clark,creator380@hudson.com,podcasts,comedy,US,USD,pro,False,False,2021-07-10 00:00:00,2023-02-12 00:00:00,,active
+cr_0381,Ryan Morris and Padilla,creator381@armstrong-farley.net,education,programming,US,USD,premium,False,False,2021-08-09 00:00:00,2023-02-15 00:00:00,,active
+cr_0382,Ochoa Taylor and Brady,creator382@sellers-riddle.com,podcasts,comedy,ES,EUR,premium,False,True,2021-06-10 00:00:00,2023-02-17 00:00:00,,active
+cr_0383,Cline Wright and Dawson,creator383@juarez.biz,writing,journalism,AU,USD,pro,False,True,2022-06-05 00:00:00,2023-02-01 00:00:00,,active
+cr_0384,Thomas-Chen,creator384@perry.com,podcasts,interviews,AU,USD,lite,False,True,2021-12-07 00:00:00,2023-02-08 00:00:00,,active
+cr_0385,Robertson-Ramirez,creator385@gibson-freeman.org,education,languages,NO,NOK,pro,False,True,2021-11-07 00:00:00,2023-02-14 00:00:00,,active
+cr_0386,Melton Ltd,creator386@simon.com,education,languages,SE,EUR,pro,False,True,2021-11-07 00:00:00,2023-01-25 00:00:00,,active
+cr_0387,Flynn Group,creator387@donaldson.info,education,programming,CA,USD,pro,False,True,2022-02-05 00:00:00,2023-01-27 00:00:00,,active
+cr_0388,Morris-Campbell,creator388@lane.com,video,tutorials,US,USD,pro,False,False,2021-09-08 00:00:00,2023-01-25 00:00:00,,active
+cr_0389,Farmer Williams and Sims,creator389@smith-noble.com,writing,newsletters,DE,EUR,premium,False,True,2022-02-05 00:00:00,2023-01-26 00:00:00,,active
+cr_0390,Bryant-Braun,creator390@harris-barker.com,video,tech,NO,NOK,pro,False,True,2022-02-05 00:00:00,2023-03-11 00:00:00,,active
+cr_0391,Turner Baxter and Mcdowell,creator391@pena.com,visual_art,animation,SE,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-12 00:00:00,,active
+cr_0392,Beck-Banks,creator392@sanders.com,video,tech,US,USD,pro,False,True,2022-04-06 00:00:00,2023-02-13 00:00:00,,active
+cr_0393,Rios-Padilla,creator393@lewis.com,education,programming,US,USD,lite,False,True,2022-07-05 00:00:00,2023-01-27 00:00:00,,active
+cr_0394,Perez Frazier and Smith,creator394@cooper.com,video,tutorials,US,USD,pro,False,True,2021-09-08 00:00:00,2023-01-28 00:00:00,,active
+cr_0395,Jones-Reyes,creator395@shaffer.com,writing,poetry,FR,EUR,pro,False,True,2021-08-09 00:00:00,2023-02-08 00:00:00,,active
+cr_0396,Reyes and Sons,creator396@haney.com,visual_art,animation,AU,USD,pro,False,False,2022-05-06 00:00:00,2023-03-09 00:00:00,,active
+cr_0397,Santos Alexander and Bowen,creator397@goodman.info,video,tutorials,FR,EUR,premium,False,True,2021-02-10 00:00:00,2023-02-08 00:00:00,,active
+cr_0398,Miller Studio,creator398@goodwin.biz,music,covers,NO,NOK,pro,False,True,2022-03-07 00:00:00,2023-03-19 00:00:00,,active
+cr_0399,Richmond-Edwards,creator399@wright.com,games,game_development,AU,USD,pro,False,False,2021-03-12 00:00:00,2023-02-15 00:00:00,,active
+cr_0400,Tran PLC,creator400@lawson.com,games,game_development,GB,USD,pro,False,False,2021-03-12 00:00:00,2023-02-15 00:00:00,,active
+cr_0401,Holmes PLC,creator401@adkins.com,video,gaming,CA,USD,pro,False,True,2021-07-10 00:00:00,2023-02-18 00:00:00,,active
+cr_0402,Simpson Studio,creator402@porter.com,podcasts,comedy,AU,USD,pro,False,True,2022-01-06 00:00:00,2023-02-01 00:00:00,,active
+cr_0403,Oneal Smith and Ward,creator403@anderson-valencia.org,video,tutorials,AU,USD,pro,False,False,2022-06-05 00:00:00,2023-01-27 00:00:00,,active
+cr_0404,Diaz-Vega,creator404@best-townsend.com,visual_art,digital_illustration,DE,EUR,premium,False,False,2021-01-11 00:00:00,2023-03-17 00:00:00,,active
+cr_0405,Jones Baker and Williams,creator405@fry.net,education,languages,DE,EUR,pro,False,True,2021-01-11 00:00:00,2023-02-17 00:00:00,,active
+cr_0406,Fuller-Mason,creator406@henderson-morales.net,podcasts,true_crime,ES,EUR,pro,False,True,2021-09-08 00:00:00,2023-02-05 00:00:00,,active
+cr_0407,Jensen Ramirez and Collins,creator407@mccall.com,writing,poetry,US,USD,lite,False,True,2022-02-05 00:00:00,2023-02-24 00:00:00,,active
+cr_0408,Willis-Hines,creator408@becker.com,education,languages,FR,EUR,pro,False,True,2022-04-06 00:00:00,2023-01-19 00:00:00,,active
+cr_0409,Sanchez Group,creator409@chavez.com,visual_art,animation,GB,USD,premium,False,True,2021-01-11 00:00:00,2023-02-06 00:00:00,,active
+cr_0410,Wade-Barrett,creator410@wilson.com,video,tutorials,AU,USD,premium,False,False,2021-05-11 00:00:00,2023-02-22 00:00:00,,active
+cr_0411,Smith Crawford and Reed,creator411@logan.com,podcasts,history,US,USD,premium,False,True,2021-03-12 00:00:00,2023-02-13 00:00:00,,active
+cr_0412,Norman Adams and Tanner,creator412@rogers.com,music,production,ES,EUR,pro,False,True,2022-03-07 00:00:00,2023-02-10 00:00:00,,active
+cr_0413,Brown Joseph and Ray,creator413@crawford.com,education,languages,NO,NOK,premium,False,False,2021-10-08 00:00:00,2023-02-19 00:00:00,,active
+cr_0414,Porter PLC,creator414@richardson.com,video,tutorials,CA,USD,lite,False,False,2021-05-11 00:00:00,2023-02-13 00:00:00,,active
+cr_0415,Craig Wilson and Yang,creator415@williams.com,video,tutorials,US,USD,pro,False,True,2022-05-06 00:00:00,2023-03-07 00:00:00,,active
+cr_0416,Ruiz Group,creator416@white.net,podcasts,interviews,SE,EUR,premium,False,True,2022-03-07 00:00:00,2023-02-20 00:00:00,,active
+cr_0417,Yang Barnes and Morris,creator417@moon-flores.com,podcasts,history,AU,USD,pro,False,True,2022-06-05 00:00:00,2023-02-05 00:00:00,,active
+cr_0418,Watson Shaw and Winters,creator418@walker.com,podcasts,interviews,GB,USD,pro,False,False,2021-07-10 00:00:00,2023-02-16 00:00:00,,active
+cr_0419,Jones-Marshall,creator419@ayala-collins.com,education,programming,NO,NOK,pro,False,True,2022-06-05 00:00:00,2023-01-26 00:00:00,,active
+cr_0420,Bryant Wood and Carter,creator420@stevenson-sanchez.com,education,fitness,GB,USD,pro,False,False,2021-05-11 00:00:00,2023-01-22 00:00:00,,active
+cr_0421,Bonilla Cuevas and Parsons,creator421@mccullough.com,video,tutorials,DE,EUR,premium,False,True,2022-01-06 00:00:00,2023-02-05 00:00:00,,active
+cr_0422,Johnson-Weaver,creator422@franco.com,podcasts,comedy,SE,EUR,premium,False,False,2021-01-11 00:00:00,2023-02-13 00:00:00,,active
+cr_0423,Bennett Rojas and Parker,creator423@moreno.biz,writing,journalism,AU,USD,premium,False,True,2021-10-08 00:00:00,2023-02-06 00:00:00,,active
+cr_0424,Woodward-Kaufman,creator424@dawson.com,podcasts,interviews,AU,USD,pro,False,True,2021-06-10 00:00:00,2023-02-21 00:00:00,,active
+cr_0425,Merritt PLC,creator425@haynes-watson.com,podcasts,comedy,GB,USD,pro,False,False,2021-12-07 00:00:00,2023-01-30 00:00:00,,active
+cr_0426,Davis Anderson and Wilkins,creator426@vargas.biz,writing,newsletters,SE,EUR,premium,False,True,2021-09-08 00:00:00,2023-02-22 00:00:00,,active
+cr_0427,Brandt Young and Green,creator427@howe-long.com,visual_art,comics,FR,EUR,premium,False,False,2021-02-10 00:00:00,2023-03-16 00:00:00,,active
+cr_0428,Chavez-Hall,creator428@taylor.com,podcasts,history,SE,EUR,pro,False,False,2021-08-09 00:00:00,2023-02-06 00:00:00,,active
+cr_0429,Garcia Group,creator429@edwards-martinez.com,podcasts,history,AU,USD,premium,False,True,2022-06-05 00:00:00,2023-01-19 00:00:00,,active
+cr_0430,Hayes Group,creator430@phelps-davis.com,music,lessons,CA,USD,pro,False,True,2021-08-09 00:00:00,2023-03-07 00:00:00,,active
+cr_0431,Terry Williams and Huff,creator431@hernandez-dawson.com,video,tutorials,ES,EUR,pro,False,True,2021-10-08 00:00:00,2023-02-03 00:00:00,,active
+cr_0432,Palmer-Byrd,creator432@wilkins-thompson.biz,video,tutorials,AU,USD,premium,False,True,2021-03-12 00:00:00,2023-02-01 00:00:00,,active
+cr_0433,Hawkins-Pierce,creator433@murray.com,writing,poetry,NO,NOK,pro,False,True,2022-03-07 00:00:00,2023-02-06 00:00:00,,active
+cr_0434,Brown and Sons,creator434@gonzalez.com,writing,newsletters,GB,USD,premium,False,True,2021-05-11 00:00:00,2023-02-10 00:00:00,,active
+cr_0435,Mccoy Newman and Aguilar,creator435@lowery-jones.com,writing,fiction,DE,EUR,premium,False,True,2021-02-10 00:00:00,2023-01-21 00:00:00,,active
+cr_0436,Orr Group,creator436@davis.com,education,music_lessons,AU,USD,premium,False,True,2022-07-05 00:00:00,2023-02-07 00:00:00,,active
+cr_0437,Dunlap Studio,creator437@glass.biz,podcasts,comedy,GB,USD,premium,False,True,2022-04-06 00:00:00,2023-02-23 00:00:00,,active
+cr_0438,Johnson-Vega,creator438@gomez.com,education,languages,AU,USD,pro,True,True,2022-07-05 00:00:00,2023-02-25 00:00:00,,active
+cr_0439,Griffin-Hernandez,creator439@harvey.biz,writing,journalism,DE,EUR,pro,False,True,2021-10-08 00:00:00,2023-02-14 00:00:00,,active
+cr_0440,Mendoza Miller and Reyes,creator440@gonzalez-wilkerson.net,video,vlogs,FR,EUR,premium,False,True,2022-06-05 00:00:00,2023-02-18 00:00:00,,active
+cr_0441,Mccoy PLC,creator441@mayo.com,education,languages,FR,EUR,pro,False,False,2021-03-12 00:00:00,2023-03-04 00:00:00,,active
+cr_0442,Stephens-Washington,creator442@shaw.com,podcasts,true_crime,US,USD,pro,False,False,2022-02-05 00:00:00,2023-02-03 00:00:00,,active
+cr_0443,Robinson Huang and Osborne,creator443@stokes.net,visual_art,comics,FR,EUR,pro,False,False,2021-08-09 00:00:00,2023-02-01 00:00:00,,active
+cr_0444,Wang-Key,creator444@garcia.com,podcasts,true_crime,DE,EUR,pro,False,True,2022-01-06 00:00:00,2023-02-25 00:00:00,,active
+cr_0445,Ferguson-Moody,creator445@brown.biz,education,fitness,DE,EUR,premium,False,False,2021-04-11 00:00:00,2023-02-25 00:00:00,,active
+cr_0446,Mcconnell-Frey,creator446@thompson.com,podcasts,comedy,US,USD,premium,False,True,2021-12-07 00:00:00,2023-01-22 00:00:00,,active
+cr_0447,Wolfe Sloan and Johnson,creator447@bell.com,podcasts,interviews,SE,EUR,lite,False,True,2022-05-06 00:00:00,2023-03-01 00:00:00,,active
+cr_0448,Weaver-Thompson,creator448@davis.org,podcasts,interviews,NO,NOK,lite,False,True,2022-04-06 00:00:00,2023-02-23 00:00:00,,active
+cr_0449,Smith Group,creator449@rivera.com,education,music_lessons,FR,EUR,pro,False,True,2021-05-11 00:00:00,2023-02-01 00:00:00,,active
+cr_0450,Peterson and Sons,creator450@brown-hernandez.com,podcasts,true_crime,CA,USD,pro,False,True,2021-10-08 00:00:00,2023-02-07 00:00:00,,active
+cr_0451,Mathis Creative,creator451@brooks.biz,video,vlogs,US,USD,pro,False,True,2021-09-08 00:00:00,2023-02-19 00:00:00,,active
+cr_0452,Garcia Turner and Taylor,creator452@oconnor.info,visual_art,photography,GB,USD,premium,False,True,2021-11-07 00:00:00,2023-03-09 00:00:00,,active
+cr_0453,Stewart Mann and Hoffman,creator453@buchanan.com,podcasts,interviews,GB,USD,pro,False,True,2022-07-05 00:00:00,2023-01-25 00:00:00,,active
+cr_0454,Parker-Barker,creator454@thompson.org,music,original,FR,EUR,pro,False,True,2022-03-07 00:00:00,2023-02-11 00:00:00,,active
+cr_0455,Rosales-Townsend,creator455@johnson.org,visual_art,digital_illustration,FR,EUR,pro,False,True,2022-05-06 00:00:00,2023-02-18 00:00:00,,active
+cr_0456,Bowman Studio,creator456@taylor-mcgee.com,writing,poetry,GB,USD,premium,False,False,2021-09-08 00:00:00,2023-03-25 00:00:00,,active
+cr_0457,Haas-Jackson,creator457@underwood.com,podcasts,comedy,NL,EUR,premium,False,True,2021-04-11 00:00:00,2023-01-22 00:00:00,,active
+cr_0458,Smith-Clark,creator458@jones.com,video,tech,CA,USD,pro,False,True,2021-02-10 00:00:00,2023-02-24 00:00:00,,active
+cr_0459,Cruz Ltd,creator459@costa-wilkerson.info,podcasts,interviews,GB,USD,premium,False,False,2021-01-11 00:00:00,2023-01-28 00:00:00,,active
+cr_0460,Bell-Bennett,creator460@kramer-lane.com,games,tutorials,NO,NOK,pro,False,True,2021-07-10 00:00:00,2023-02-15 00:00:00,,active
+cr_0461,Hayes Studio,creator461@smith-green.com,education,music_lessons,AU,USD,pro,False,True,2021-03-12 00:00:00,2023-01-20 00:00:00,,active
+cr_0462,Peterson Group,creator462@dennis.com,podcasts,true_crime,DE,EUR,pro,False,False,2022-04-06 00:00:00,2023-03-14 00:00:00,,active
+cr_0463,Wheeler-Austin,creator463@bush-reynolds.com,podcasts,true_crime,GB,USD,pro,False,True,2021-12-07 00:00:00,2023-02-20 00:00:00,,active
+cr_0464,Preston Moore and Garcia,creator464@mccann.net,podcasts,history,NO,NOK,lite,False,False,2022-05-06 00:00:00,2023-03-01 00:00:00,,active
+cr_0465,Frost Fernandez and Guerrero,creator465@young-williams.org,games,game_development,US,USD,premium,False,True,2022-01-06 00:00:00,2023-02-04 00:00:00,,active
+cr_0466,Larsen Hernandez and Ward,creator466@miller-colon.org,podcasts,comedy,US,USD,premium,False,True,2021-06-10 00:00:00,2023-01-13 00:00:00,,active
+cr_0467,Gonzalez-Johnson,creator467@little.info,video,vlogs,GB,USD,lite,False,False,2022-07-05 00:00:00,2023-02-25 00:00:00,,active
+cr_0468,Parker Group,creator468@burns-guerrero.com,podcasts,comedy,SE,EUR,pro,True,True,2021-09-08 00:00:00,2023-02-09 00:00:00,,active
+cr_0469,Stephens Lopez and Mcclure,creator469@lopez-williams.info,writing,fiction,AU,USD,pro,False,True,2021-11-07 00:00:00,2023-02-02 00:00:00,,active
+cr_0470,Baker-Hood,creator470@brown.com,visual_art,comics,CA,USD,pro,False,False,2021-01-11 00:00:00,2023-01-29 00:00:00,,active
+cr_0471,Cooper Weaver and Arellano,creator471@perez.net,writing,fiction,AU,USD,premium,False,True,2021-06-10 00:00:00,2023-02-04 00:00:00,,active
+cr_0472,Sheppard-Mcdaniel,creator472@armstrong-young.com,podcasts,interviews,CA,USD,pro,True,True,2021-11-07 00:00:00,2023-02-07 00:00:00,,active
+cr_0473,Foster Ltd,creator473@shaw.org,video,gaming,CA,USD,pro,False,False,2021-05-11 00:00:00,2023-01-27 00:00:00,,active
+cr_0474,Mcgrath Hernandez and Avery,creator474@thompson-joyce.com,writing,fiction,GB,USD,premium,False,False,2022-04-06 00:00:00,2023-02-10 00:00:00,,active
+cr_0475,Martinez Group,creator475@mcneil.com,visual_art,digital_illustration,DE,EUR,pro,False,True,2021-07-10 00:00:00,2023-02-07 00:00:00,,active
+cr_0476,Hernandez Larson and Flores,creator476@sloan.biz,visual_art,animation,DE,EUR,premium,False,True,2022-02-05 00:00:00,2023-02-10 00:00:00,,active
+cr_0477,Nguyen Hill and Ellis,creator477@buchanan.org,podcasts,interviews,CA,USD,pro,False,True,2022-05-06 00:00:00,2023-02-13 00:00:00,,active
+cr_0478,Harrington Rodriguez and Hernandez,creator478@matthews.com,education,fitness,SE,EUR,premium,False,True,2021-05-11 00:00:00,2023-03-07 00:00:00,,active
+cr_0479,Chan Floyd and Dillon,creator479@humphrey-baker.info,video,tech,CA,USD,pro,False,False,2021-04-11 00:00:00,2023-03-01 00:00:00,,active
+cr_0480,Lynch Johnson and Hill,creator480@montgomery.biz,writing,newsletters,NL,EUR,premium,False,True,2021-04-11 00:00:00,2023-01-20 00:00:00,,active
+cr_0481,Foster Creative,creator481@young.com,video,tutorials,NO,NOK,pro,False,True,2021-10-08 00:00:00,2023-02-05 00:00:00,,active
+cr_0482,Morgan Creative,creator482@ramirez-vasquez.com,video,vlogs,FR,EUR,pro,False,True,2021-10-08 00:00:00,2023-01-31 00:00:00,,active
+cr_0483,Taylor Ltd,creator483@schroeder-flores.biz,education,programming,FR,EUR,premium,False,True,2022-03-07 00:00:00,2023-02-05 00:00:00,,active
+cr_0484,Brewer Lopez and Lewis,creator484@figueroa-malone.com,games,reviews,NL,EUR,pro,False,False,2022-06-05 00:00:00,2023-03-16 00:00:00,,active
+cr_0485,Robertson and Sons,creator485@collins.biz,podcasts,true_crime,SE,EUR,pro,False,True,2022-01-06 00:00:00,2023-02-22 00:00:00,,active
+cr_0486,Deleon PLC,creator486@johnson.com,video,gaming,US,USD,premium,False,True,2022-05-06 00:00:00,2023-02-08 00:00:00,,active
+cr_0487,Johnson Studio,creator487@bush-hill.info,music,covers,CA,USD,pro,False,True,2021-03-12 00:00:00,2023-02-11 00:00:00,,active
+cr_0488,Sanders Leblanc and Maldonado,creator488@watson.info,music,covers,AU,USD,pro,False,True,2021-01-11 00:00:00,2023-02-27 00:00:00,,active
+cr_0489,Horne Group,creator489@arnold.com,writing,newsletters,NL,EUR,premium,False,True,2022-04-06 00:00:00,2023-03-02 00:00:00,,active
+cr_0490,Rivas Davis and Johnson,creator490@martin.com,games,reviews,DE,EUR,premium,False,True,2022-07-05 00:00:00,2023-03-01 00:00:00,,active
+cr_0491,Holland Ltd,creator491@adams.net,writing,newsletters,NO,NOK,premium,False,True,2021-01-11 00:00:00,2023-03-05 00:00:00,,active
+cr_0492,Hancock Ltd,creator492@wells.com,video,gaming,SE,EUR,premium,False,True,2021-01-11 00:00:00,2023-02-15 00:00:00,,active
+cr_0493,Owen Walker and Franklin,creator493@marquez-fletcher.com,visual_art,animation,CA,USD,pro,False,True,2021-01-11 00:00:00,2023-01-24 00:00:00,,active
+cr_0494,Woodard-York,creator494@king-owens.net,visual_art,comics,DE,EUR,pro,False,True,2021-09-08 00:00:00,2023-03-06 00:00:00,,active
+cr_0495,Sanders Garcia and Hunt,creator495@levy.org,education,languages,FR,EUR,pro,False,True,2022-03-07 00:00:00,2023-02-16 00:00:00,,active
+cr_0496,Campbell Cohen and Olson,creator496@mcneil-davidson.com,video,gaming,GB,USD,pro,False,False,2022-03-07 00:00:00,2023-02-14 00:00:00,,active
+cr_0497,Douglas-Farley,creator497@evans.com,writing,newsletters,ES,EUR,pro,False,False,2021-05-11 00:00:00,2023-02-10 00:00:00,,active
+cr_0498,Powell Flores and Taylor,creator498@rios.com,podcasts,history,NO,NOK,lite,True,True,2021-02-10 00:00:00,2023-02-01 00:00:00,,active
+cr_0499,Sullivan-Doyle,creator499@erickson.com,games,lets_plays,NO,NOK,pro,False,False,2022-02-05 00:00:00,2023-02-02 00:00:00,,active
+cr_0500,Nichols Glover and Knox,creator500@howard.net,education,programming,US,USD,pro,False,True,2021-03-12 00:00:00,2023-03-02 00:00:00,,active

@@ -1,0 +1,123 @@
+version: 2
+
+models:
+  - name: stg_creators
+    description: Staged creator accounts with derived fields
+    columns:
+      - name: creator_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: plan_type
+        data_tests:
+          - accepted_values:
+              values: ['lite', 'pro', 'premium']
+      - name: status
+        data_tests:
+          - accepted_values:
+              values: ['active', 'paused', 'suspended', 'deleted']
+
+  - name: stg_patrons
+    description: Staged patron accounts with value tier classification
+    columns:
+      - name: patron_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: patron_value_tier
+        data_tests:
+          - accepted_values:
+              values: ['whale', 'high_value', 'regular', 'casual']
+
+  - name: stg_tiers
+    description: Staged membership tiers with price bucketing
+    columns:
+      - name: tier_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: creator_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_creators')
+              field: creator_id
+      - name: price_usd
+        data_tests:
+          - not_null
+
+  - name: stg_pledges
+    description: Staged pledge subscriptions with status tracking
+    columns:
+      - name: pledge_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: patron_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_patrons')
+              field: patron_id
+      - name: creator_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_creators')
+              field: creator_id
+      - name: pledge_status
+        data_tests:
+          - accepted_values:
+              values: ['active', 'paused', 'churned', 'declined']
+
+  - name: stg_transactions
+    description: Staged payment transactions with fee calculations
+    columns:
+      - name: transaction_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: pledge_id
+        data_tests:
+          - not_null
+      - name: transaction_status
+        data_tests:
+          - accepted_values:
+              values: ['pending', 'succeeded', 'failed', 'refunded']
+      - name: transaction_type
+        data_tests:
+          - accepted_values:
+              values: ['pledge_payment', 'refund', 'chargeback']
+
+  - name: stg_posts
+    description: Staged creator posts with access classification
+    columns:
+      - name: post_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: creator_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_creators')
+              field: creator_id
+
+  - name: stg_engagement_events
+    description: Staged patron engagement events with weighting
+    columns:
+      - name: event_id
+        description: Primary key
+        data_tests:
+          - unique
+          - not_null
+      - name: event_type
+        data_tests:
+          - accepted_values:
+              values: ['view', 'like', 'unlike', 'comment', 'share']

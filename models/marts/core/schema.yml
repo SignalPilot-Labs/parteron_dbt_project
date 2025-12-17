@@ -1,0 +1,373 @@
+version: 2
+
+models:
+  - name: fct_creator_monthly_performance
+    description: |
+      Monthly aggregated performance metrics for each creator.
+      Grain: One row per creator per month.
+      
+      Primary use cases:
+      - Creator success dashboards
+      - Revenue forecasting
+      - Churn prediction features
+      - Platform health monitoring
+    
+    meta:
+      owner: data-platform
+      tier: gold
+      domain: creator_success
+      
+    config:
+      tags: ['marts', 'core', 'revenue', 'daily']
+      
+    columns:
+      - name: creator_month_key
+        description: Surrogate key (creator_id + month)
+        data_tests:
+          - unique
+          - not_null
+        meta:
+          semantic_type: primary_key
+          
+      - name: creator_id
+        description: FK to creator
+        data_tests:
+          - not_null
+        meta:
+          semantic_type: foreign_key
+          
+      - name: month_start_date
+        description: First day of the month (YYYY-MM-01)
+        data_tests:
+          - not_null
+        meta:
+          semantic_type: date
+          granularity: month
+          
+      - name: creator_name
+        meta:
+          semantic_type: dimension
+          
+      - name: creator_category
+        description: Content category
+        meta:
+          semantic_type: dimension
+          
+      - name: plan_type
+        description: Patreon subscription plan
+        data_tests:
+          - accepted_values:
+              values: ['lite', 'pro', 'premium']
+        meta:
+          semantic_type: dimension
+          
+      - name: creator_country
+        meta:
+          semantic_type: dimension
+          
+      # Patron Metrics
+      - name: total_patrons
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: active_patrons
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          kpi: true
+          
+      - name: new_patrons
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: churned_patrons
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: net_patron_change
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: patron_churn_rate_pct
+        description: Churn rate - healthy is < 5%
+        meta:
+          semantic_type: measure
+          aggregation: average
+          unit: percent
+          kpi: true
+          alert_threshold_high: 10
+          
+      # MRR Metrics
+      - name: gross_mrr_usd
+        description: Sum of active pledge amounts
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          kpi: true
+          
+      - name: new_mrr_usd
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          
+      - name: churned_mrr_usd
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          
+      - name: mrr_change_usd
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          
+      - name: mrr_growth_rate_pct
+        meta:
+          semantic_type: measure
+          aggregation: average
+          unit: percent
+          
+      # Revenue Metrics
+      - name: gross_revenue_usd
+        description: Actual collected revenue
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          kpi: true
+          
+      - name: platform_fees_usd
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          
+      - name: processing_fees_usd
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          
+      - name: net_creator_earnings_usd
+        description: Creator payout after all fees
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          kpi: true
+          
+      - name: collection_rate_pct
+        description: Revenue collected vs pledged - healthy > 95%
+        meta:
+          semantic_type: measure
+          aggregation: average
+          unit: percent
+          alert_threshold_low: 90
+          
+      # Payment Health
+      - name: successful_transactions
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: transactions
+          
+      - name: failed_transactions
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: transactions
+          
+      - name: declined_amount_usd
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: usd
+          
+      - name: decline_rate_pct
+        description: Payment failure rate
+        meta:
+          semantic_type: measure
+          aggregation: average
+          unit: percent
+          alert_threshold_high: 15
+          
+      # Tier Distribution
+      - name: tier_1_patrons
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: tier_2_patrons
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: tier_3_plus_patrons
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: avg_pledge_amount_usd
+        meta:
+          semantic_type: measure
+          aggregation: average
+          unit: usd
+          
+      # Content Metrics
+      - name: posts_published
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: posts
+          
+      - name: paywalled_posts
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: posts
+          
+      - name: free_posts
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: posts
+          
+      # Engagement Metrics
+      - name: total_views
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: views
+          
+      - name: total_likes
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: likes
+          
+      - name: total_comments
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: comments
+          
+      - name: engaged_patrons
+        description: Patrons with any engagement activity
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          unit: patrons
+          
+      - name: total_engagement_score
+        description: Weighted engagement score
+        meta:
+          semantic_type: measure
+          aggregation: sum
+          
+      - name: patron_engagement_rate_pct
+        description: Leading indicator for retention
+        meta:
+          semantic_type: measure
+          aggregation: average
+          unit: percent
+          kpi: true
+          
+      - name: updated_at
+        meta:
+          semantic_type: timestamp
+
+# Semantic layer for BI tools
+semantic_models:
+  - name: creator_performance
+    description: Creator monthly performance semantic model
+    model: ref('fct_creator_monthly_performance')
+    defaults:
+      agg_time_dimension: report_month
+
+    entities:
+      - name: creator
+        type: foreign
+        expr: creator_id
+      - name: creator_month
+        type: primary
+        expr: creator_month_key
+
+    dimensions:
+      - name: report_month
+        type: time
+        expr: month_start_date
+        type_params:
+          time_granularity: month
+      - name: category
+        type: categorical
+        expr: creator_category
+      - name: plan
+        type: categorical
+        expr: plan_type
+      - name: country
+        type: categorical
+        expr: creator_country
+
+    measures:
+      - name: mrr
+        agg: sum
+        expr: gross_mrr_usd
+      - name: revenue
+        agg: sum
+        expr: gross_revenue_usd
+      - name: patrons
+        agg: sum
+        expr: active_patrons
+      - name: earnings
+        agg: sum
+        expr: net_creator_earnings_usd
+      - name: platform_fees
+        agg: sum
+        expr: platform_fees_usd
+
+metrics:
+  - name: platform_total_mrr
+    label: Platform MRR
+    description: Total MRR across all creators
+    type: simple
+    type_params:
+      measure: mrr
+
+  - name: total_platform_fees
+    label: Platform Fees
+    description: Total platform fees collected
+    type: simple
+    type_params:
+      measure: platform_fees
+
+  - name: total_revenue
+    label: Total Revenue
+    description: Total gross revenue
+    type: simple
+    type_params:
+      measure: revenue
+
+  - name: platform_take_rate
+    label: Take Rate
+    description: Platform fees as % of gross revenue
+    type: derived
+    type_params:
+      expr: (total_platform_fees / total_revenue) * 100
+      metrics:
+        - name: total_platform_fees
+        - name: total_revenue

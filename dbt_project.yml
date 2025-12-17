@@ -1,0 +1,76 @@
+name: 'patreon_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'patreon_databricks'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars:
+  # Date range for incremental models
+  start_date: '2023-01-01'
+  # Platform fee percentages by plan
+  platform_fee_lite: 0.05
+  platform_fee_pro: 0.08
+  platform_fee_premium: 0.12
+
+seeds:
+  patreon_analytics:
+    +schema: raw
+    +quote_columns: false
+    creators:
+      +column_types:
+        creator_id: string
+        created_at: timestamp
+        first_pledge_received_at: timestamp
+    patrons:
+      +column_types:
+        patron_id: string
+        created_at: timestamp
+    tiers:
+      +column_types:
+        tier_id: string
+        creator_id: string
+        price_usd: decimal(10,2)
+    pledges:
+      +column_types:
+        pledge_id: string
+        patron_id: string
+        creator_id: string
+        tier_id: string
+        pledge_amount_usd: decimal(10,2)
+        started_at: timestamp
+        ended_at: timestamp
+    transactions:
+      +column_types:
+        transaction_id: string
+        pledge_id: string
+        gross_amount_usd: decimal(10,2)
+        platform_fee_usd: decimal(10,2)
+        processing_fee_usd: decimal(10,2)
+        net_amount_usd: decimal(10,2)
+        transaction_at: timestamp
+
+models:
+  patreon_analytics:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: ephemeral
+    marts:
+      +materialized: table
+      +schema: marts
+      core:
+        +tags: ['core', 'daily']
+      finance:
+        +tags: ['finance', 'daily']
