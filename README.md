@@ -319,7 +319,7 @@ dbt debug
 # 1. Install packages (dbt_utils, dbt_expectations, codegen)
 dbt deps
 
-# 2. Load seed data into Databricks
+# 2. Load seed data into Databricks [WARNING: ONLY FIRST TIME, DATA ALREADY THERE]
 dbt seed
 
 # 3. Build all models
