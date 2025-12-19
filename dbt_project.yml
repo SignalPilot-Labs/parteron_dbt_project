@@ -17,7 +17,7 @@ clean-targets:
 
 vars:
   # Date range for incremental models
-  start_date: '2023-01-01'
+  start_date: '2024-01-01'
   # Platform fee percentages by plan
   platform_fee_lite: 0.05
   platform_fee_pro: 0.08
@@ -25,7 +25,7 @@ vars:
 
 seeds:
   patreon_analytics:
-    +schema: analytics_raw
+    +schema: raw
     +quote_columns: false
     creators:
       +column_types:
