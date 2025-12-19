@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ ref('creators') }}
+    select * from {{ source('raw_patreon', 'creators') }}
 ),
 
 staged as (

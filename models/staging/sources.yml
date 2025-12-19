@@ -1,0 +1,196 @@
+version: 2
+
+sources:
+  - name: raw_patreon
+    description: Raw Patreon data ingested into Databricks Unity Catalog
+    database: "{{ target.catalog }}"
+    schema: raw
+    
+    tables:
+      - name: creators
+        description: Creator accounts - one row per creator
+        columns:
+          - name: creator_id
+            description: Unique identifier for creator account
+            data_tests:
+              - unique
+              - not_null
+          - name: creator_name
+            description: Display name chosen by creator
+          - name: email
+            description: Creator email address
+          - name: category
+            description: "Primary content category: podcasts, video, writing, music, visual_art, games, education, other"
+          - name: subcategory
+            description: More specific content niche
+          - name: country_code
+            description: ISO 3166-1 alpha-2 country code
+          - name: currency_code
+            description: Preferred payout currency
+          - name: plan_type
+            description: "Patreon plan: lite, pro, premium"
+          - name: is_nsfw
+            description: Adult content flag
+          - name: is_verified
+            description: Identity verified by platform
+          - name: created_at
+            description: Account creation timestamp
+          - name: first_pledge_received_at
+            description: First successful pledge timestamp
+          - name: last_post_at
+            description: Most recent content post
+          - name: status
+            description: "Account status: active, paused, suspended, deleted"
+
+      - name: patrons
+        description: Patron accounts - one row per patron
+        columns:
+          - name: patron_id
+            description: Unique identifier for patron account
+            data_tests:
+              - unique
+              - not_null
+          - name: patron_name
+            description: Display name
+          - name: email
+            description: Patron email address
+          - name: country_code
+            description: ISO country code
+          - name: created_at
+            description: Account creation timestamp
+          - name: first_pledge_at
+            description: First pledge made on platform
+          - name: lifetime_spend_usd
+            description: Total amount spent across all creators
+          - name: status
+            description: Account status
+
+      - name: tiers
+        description: Membership tiers - creators can have up to 8 tiers
+        columns:
+          - name: tier_id
+            description: Unique identifier for tier
+            data_tests:
+              - unique
+              - not_null
+          - name: creator_id
+            description: FK to creators
+          - name: tier_name
+            description: Display name (e.g., "Supporter", "Super Fan")
+          - name: tier_rank
+            description: "Ordering: 1 = lowest tier, higher = premium"
+          - name: price_usd
+            description: Monthly price in USD
+          - name: description
+            description: Benefits description
+          - name: is_active
+            description: Whether tier is currently active
+          - name: created_at
+            description: Tier creation timestamp
+          - name: archived_at
+            description: When tier was discontinued
+
+      - name: pledges
+        description: Pledge subscriptions - patron to creator relationships
+        columns:
+          - name: pledge_id
+            description: Unique identifier for this pledge record
+            data_tests:
+              - unique
+              - not_null
+          - name: patron_id
+            description: FK to patrons
+          - name: creator_id
+            description: FK to creators
+          - name: tier_id
+            description: FK to tiers (null if custom amount)
+          - name: pledge_amount_usd
+            description: Monthly pledge amount
+          - name: pledge_status
+            description: "active, paused, churned, declined"
+          - name: is_first_pledge
+            description: First pledge from this patron to this creator
+          - name: started_at
+            description: Pledge start date
+          - name: ended_at
+            description: Pledge end date (null if active)
+          - name: pause_started_at
+            description: Current pause start
+          - name: churn_reason
+            description: "voluntary, payment_failed, creator_removed"
+
+      - name: transactions
+        description: Payment transactions
+        columns:
+          - name: transaction_id
+            description: Unique transaction identifier
+            data_tests:
+              - unique
+              - not_null
+          - name: pledge_id
+            description: FK to pledges
+          - name: patron_id
+            description: FK to patrons (denormalized)
+          - name: creator_id
+            description: FK to creators (denormalized)
+          - name: transaction_type
+            description: "pledge_payment, refund, chargeback"
+          - name: transaction_status
+            description: "pending, succeeded, failed, refunded"
+          - name: gross_amount_usd
+            description: Total charge amount
+          - name: platform_fee_usd
+            description: Patreon platform fee
+          - name: processing_fee_usd
+            description: Stripe/PayPal fee
+          - name: net_amount_usd
+            description: Creator payout amount
+          - name: payment_method
+            description: "card, paypal, bank"
+          - name: failure_reason
+            description: "insufficient_funds, card_expired, etc."
+          - name: transaction_at
+            description: Transaction timestamp
+
+      - name: posts
+        description: Creator posts and content
+        columns:
+          - name: post_id
+            description: Unique post identifier
+            data_tests:
+              - unique
+              - not_null
+          - name: creator_id
+            description: FK to creators
+          - name: title
+            description: Post title
+          - name: post_type
+            description: "text, image, video, audio, poll, link"
+          - name: access_level
+            description: "public, patrons_only, tier_specific"
+          - name: minimum_tier_id
+            description: Minimum tier required (if tier_specific)
+          - name: published_at
+            description: Publication timestamp
+          - name: is_pinned
+            description: Whether post is pinned
+
+      - name: engagement_events
+        description: Patron engagement events
+        columns:
+          - name: event_id
+            description: Unique event identifier
+            data_tests:
+              - unique
+              - not_null
+          - name: patron_id
+            description: FK to patrons
+          - name: creator_id
+            description: FK to creators
+          - name: post_id
+            description: FK to posts
+          - name: event_type
+            description: "view, like, unlike, comment, share"
+          - name: event_at
+            description: Event timestamp
+
