@@ -56,12 +56,12 @@ pledge_metrics as (
         count(distinct p.patron_id) as total_patrons,
         count(distinct case when p.pledge_status = 'active' then p.patron_id end) as active_patrons,
         count(distinct case when p.is_first_pledge = true then p.patron_id end) as new_patrons,
-        count(distinct case when p.pledge_status = 'churned' then p.patron_id end) as churned_patrons,
+        count(distinct case when p.pledge_status = 'cancelled' then p.patron_id end) as churned_patrons,
         
         -- MRR
         sum(case when p.pledge_status = 'active' then p.pledge_amount_usd else 0 end) as gross_mrr_usd,
         sum(case when p.is_first_pledge = true then p.pledge_amount_usd else 0 end) as new_mrr_usd,
-        sum(case when p.pledge_status = 'churned' then p.pledge_amount_usd else 0 end) as churned_mrr_usd,
+        sum(case when p.pledge_status = 'cancelled' then p.pledge_amount_usd else 0 end) as churned_mrr_usd,
         
         -- Tier distribution
         count(distinct case when ti.tier_rank = 1 then p.patron_id end) as tier_1_patrons,

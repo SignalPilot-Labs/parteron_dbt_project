@@ -1,5 +1,5 @@
 with source as (
-    select * from `patreon_dev`.`raw`.`patrons`
+    select * from `patreon_dev`.`analytics_raw`.`patrons`
 ),
 
 staged as (

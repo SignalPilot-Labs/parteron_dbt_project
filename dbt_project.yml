@@ -25,7 +25,7 @@ vars:
 
 seeds:
   patreon_analytics:
-    +schema: raw
+    +schema: analytics_raw
     +quote_columns: false
     creators:
       +column_types:
