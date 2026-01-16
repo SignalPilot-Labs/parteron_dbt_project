@@ -4,6 +4,7 @@ A comprehensive dbt project for analyzing Patreon creator and patron data on Dat
 
 ## Table of Contents
 
+- [Quick Start (Operations Setup)](#quick-start-operations-setup)
 - [Project Overview](#project-overview)
 - [Data Architecture](#data-architecture)
 - [Data Entities](#data-entities)
@@ -13,6 +14,50 @@ A comprehensive dbt project for analyzing Patreon creator and patron data on Dat
 - [Checking Data in Databricks](#checking-data-in-databricks)
 - [Key Metrics and KPIs](#key-metrics-and-kpis)
 - [Testing and Data Quality](#testing-and-data-quality)
+
+---
+
+## Quick Start (Operations Setup)
+
+> **Important**: Complete these steps before running any dbt commands.
+
+### Step 0: Create Databricks Catalog (Required - One Time)
+
+dbt **cannot** create catalogs - you must create it manually first.
+
+**In dbt Cloud:**
+1. Open the dbt Cloud IDE
+2. Go to **SQL Runner** (Compile dropdown → SQL Runner)
+3. Run the following SQL:
+
+```sql
+-- Create the catalog (required before dbt can connect)
+CREATE CATALOG IF NOT EXISTS patreon_dev;
+
+-- Create schemas (optional - dbt can auto-create these)
+USE CATALOG patreon_dev;
+CREATE SCHEMA IF NOT EXISTS raw;
+CREATE SCHEMA IF NOT EXISTS staging;
+CREATE SCHEMA IF NOT EXISTS marts;
+```
+
+**In Databricks UI:**
+1. Go to **Data Explorer** → **Create Catalog**
+2. Name it `patreon_dev`
+3. Then run the schema creation SQL in the SQL Editor
+
+### Step 1: Run dbt Commands
+
+```bash
+# 1. Install packages
+dbt deps
+
+# 2. Load seed data (auto-creates schemas if needed)
+dbt seed
+
+# 3. Build all models
+dbt run
+```
 
 ---
 
